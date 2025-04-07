@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #121212;
+  
+  /* NYT Connections Colors */
+  --yellow-bg: #FFC10E;
+  --yellow-text: #000000;
+  --green-bg: #7CAD3A;
+  --green-text: #FFFFFF;
+  --blue-bg: #4575B4;
+  --blue-text: #FFFFFF;
+  --purple-bg: #A651B7;
+  --purple-text: #FFFFFF;
+  
+  /* Game UI Colors */
+  --tile-bg: #FFFFFF;
+  --tile-text: #000000;
+  --tile-border: #D3D3D3;
+  --selected-bg: #3B82F6;
+  --selected-text: #FFFFFF;
+  --submit-bg: #3B82F6;
+  --submit-text: #FFFFFF;
+  --submit-disabled-bg: #E5E7EB;
+  --submit-disabled-text: #6B7280;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* Dark mode with class-based approach */
+.dark {
+  --background: #121212;
+  --foreground: #FAFAFA;
+  --tile-bg: #1F1F1F;
+  --tile-text: #FFFFFF;
+  --tile-border: #333333;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans, Arial, Helvetica, sans-serif);
+}
+
+/* Custom classes for Connections game */
+.connections-board {
+  max-width: 500px;
+  margin: 0 auto;
+}
