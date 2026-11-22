@@ -34,6 +34,18 @@
   --font-mono: var(--font-geist-mono);
 }
 
+/* Hebrew edition: Heebo for UI and tiles, Frank Ruhl Libre for headings */
+:root:lang(he) {
+  --font-sans: var(--font-heebo), "Arial Hebrew", Arial, sans-serif;
+  --font-display: var(--font-frank-ruhl-libre), "Times New Roman", serif;
+}
+
+:root:lang(he) h1,
+:root:lang(he) h2,
+:root:lang(he) h3 {
+  font-family: var(--font-display);
+}
+
 /* Dark mode with class-based approach */
 .dark {
   --background: #121212;

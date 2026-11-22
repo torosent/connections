@@ -1,3 +1,5 @@
+export type Locale = 'en' | 'he';
+
 export interface ConnectionGroup {
   level: number;
   group: string;

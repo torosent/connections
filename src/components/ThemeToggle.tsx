@@ -3,15 +3,25 @@ import React from 'react';
 interface ThemeToggleProps {
   isDarkMode: boolean;
   toggleTheme: () => void;
+  lightLabel?: string;
+  darkLabel?: string;
 }
 
-const ThemeToggle: React.FC<ThemeToggleProps> = ({ isDarkMode, toggleTheme }) => {
+const ThemeToggle: React.FC<ThemeToggleProps> = ({
+  isDarkMode,
+  toggleTheme,
+  lightLabel = "Switch to light theme",
+  darkLabel = "Switch to dark theme",
+}) => {
+  const label = isDarkMode ? lightLabel : darkLabel;
+
   return (
     <button
+      type="button"
       onClick={toggleTheme}
-      className="p-2 rounded-full bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
-      aria-label={isDarkMode ? "Switch to light theme" : "Switch to dark theme"}
-      title={isDarkMode ? "Switch to light theme" : "Switch to dark theme"}
+      className="p-2 rounded-full bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors cursor-pointer"
+      aria-label={label}
+      title={label}
     >
       {isDarkMode ? (
         // Sun icon for light mode

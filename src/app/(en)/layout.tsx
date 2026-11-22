@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { ThemeProvider } from "@/context/ThemeContext";
-import "./globals.css";
+import { getEditionMetadata } from "@/i18n/translations";
+import "../globals.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -13,24 +14,17 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "Connections",
-  description: "A clone of the New York Times Connections word game",
-}
+export const metadata: Metadata = getEditionMetadata("en");
 
-export default function RootLayout({
+export default function EnglishRootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-50`}
-      >
-        <ThemeProvider>
-          {children}
-        </ThemeProvider>
+    <html lang="en" dir="ltr" className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body className="antialiased bg-gray-50">
+        <ThemeProvider>{children}</ThemeProvider>
       </body>
     </html>
   );
