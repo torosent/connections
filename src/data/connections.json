@@ -30588,5 +30588,4605 @@
                 ]
             }
         ]
+    },
+    {
+        "id": 666,
+        "date": "2025-04-07",
+        "answers": [
+            {
+                "level": 0,
+                "group": "ITEMS IN A SEWING BASKET",
+                "members": [
+                    "BOBBIN",
+                    "NEEDLE",
+                    "THIMBLE",
+                    "THREAD"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "WAYS TO SECURE A DOOR",
+                "members": [
+                    "BOLT",
+                    "CHAIN",
+                    "DEADBOLT",
+                    "LATCH"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "RIVERS FLOWING THROUGH CAPITALS",
+                "members": [
+                    "DANUBE",
+                    "POTOMAC",
+                    "SEINE",
+                    "THAMES"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "CRYSTAL ___",
+                "members": [
+                    "BALL",
+                    "CLEAR",
+                    "METHOD",
+                    "PALACE"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 667,
+        "date": "2025-04-08",
+        "answers": [
+            {
+                "level": 0,
+                "group": "KITCHEN MEASURING TOOLS",
+                "members": [
+                    "BEAKER",
+                    "CUP",
+                    "LADLE",
+                    "SCALE"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "DESCRIPTORS FOR CRISP WEATHER",
+                "members": [
+                    "BRISK",
+                    "CHILLY",
+                    "NIPPY",
+                    "SNAPPY"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "CLASSICAL ARCHITECTURAL ORDERS",
+                "members": [
+                    "COMPOSITE",
+                    "CORINTHIAN",
+                    "DORIC",
+                    "IONIC"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "___ BENCH",
+                "members": [
+                    "JUDGE",
+                    "PARK",
+                    "WEIGHT",
+                    "WORK"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 668,
+        "date": "2025-04-09",
+        "answers": [
+            {
+                "level": 0,
+                "group": "PARTS OF A BICYCLE FRAME",
+                "members": [
+                    "FORK",
+                    "HANDLEBAR",
+                    "PEDAL",
+                    "SADDLE"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "SPEAK VERY QUIETLY",
+                "members": [
+                    "MUMBLE",
+                    "MURMUR",
+                    "MUTTER",
+                    "WHISPER"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "MAJOR MOONS OF JUPITER",
+                "members": [
+                    "CALLISTO",
+                    "EUROPA",
+                    "GANYMEDE",
+                    "IO"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "WORDS CONTAINING A HIDDEN TREE",
+                "members": [
+                    "ASHEN",
+                    "CLOAK",
+                    "HELMET",
+                    "SPINE"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 669,
+        "date": "2025-04-10",
+        "answers": [
+            {
+                "level": 0,
+                "group": "CAMPING SHELTER GEAR",
+                "members": [
+                    "GROUNDCLOTH",
+                    "GUYLINE",
+                    "STAKE",
+                    "TARP"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "SUDDEN BURST OF ENERGY",
+                "members": [
+                    "DASH",
+                    "FLURRY",
+                    "SPURT",
+                    "SURGE"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "TYPES OF JAPANESE NOODLES",
+                "members": [
+                    "RAMEN",
+                    "SOBA",
+                    "SOMEN",
+                    "UDON"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "STARTING WITH A GREEK LETTER",
+                "members": [
+                    "ALPHABET",
+                    "CHIMNEY",
+                    "PIGEON",
+                    "TAURUS"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 670,
+        "date": "2025-04-11",
+        "answers": [
+            {
+                "level": 0,
+                "group": "GARDEN HAND IMPLEMENTS",
+                "members": [
+                    "HOE",
+                    "PRUNER",
+                    "RAKE",
+                    "TROWEL"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "MAKE LESS INTENSE",
+                "members": [
+                    "ALLAY",
+                    "DAMPEN",
+                    "SOFTEN",
+                    "TEMPER"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "DESERTS OF THE WORLD",
+                "members": [
+                    "ATACAMA",
+                    "GOBI",
+                    "KALAHARI",
+                    "MOJAVE"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "___ GUARD",
+                "members": [
+                    "BODY",
+                    "COAST",
+                    "MOUTH",
+                    "SHIN"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 671,
+        "date": "2025-04-12",
+        "answers": [
+            {
+                "level": 0,
+                "group": "BACKPACK COMPARTMENTS AND FEATURES",
+                "members": [
+                    "BUCKLE",
+                    "POCKET",
+                    "STRAP",
+                    "ZIPPER"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "SHARP WIT OR REMARK",
+                "members": [
+                    "BARB",
+                    "JIBE",
+                    "QUIP",
+                    "ZINGER"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "EARLY SILENT FILM STARS",
+                "members": [
+                    "CHAPLIN",
+                    "GARBO",
+                    "KEATON",
+                    "LLOYD"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "HOMOPHONES OF BODY PARTS",
+                "members": [
+                    "HEAL",
+                    "NEE",
+                    "TOW",
+                    "VAIN"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 672,
+        "date": "2025-04-13",
+        "answers": [
+            {
+                "level": 0,
+                "group": "BAKERY PASTRY ITEMS",
+                "members": [
+                    "BRIOCHE",
+                    "CROISSANT",
+                    "DANISH",
+                    "SCONE"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "UNEXPECTED OBSTACLE",
+                "members": [
+                    "GLITCH",
+                    "HICCUP",
+                    "HITCH",
+                    "SNAG"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "NOBLE GASES ON THE PERIODIC TABLE",
+                "members": [
+                    "ARGON",
+                    "KRYPTON",
+                    "NEON",
+                    "XENON"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "PRESSURE ___",
+                "members": [
+                    "COOKER",
+                    "DROP",
+                    "POINT",
+                    "WASHER"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 673,
+        "date": "2025-04-14",
+        "answers": [
+            {
+                "level": 0,
+                "group": "WOODWORKING SHOP TOOLS",
+                "members": [
+                    "CHISEL",
+                    "MALLET",
+                    "PLANE",
+                    "ROUTER"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "PERSISTENTLY ANNOY",
+                "members": [
+                    "BADGER",
+                    "HARASS",
+                    "HOUND",
+                    "PESTER"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "FAMOUS OPERA COMPOSERS",
+                "members": [
+                    "BIZET",
+                    "PUCCINI",
+                    "ROSSINI",
+                    "VERDI"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "WORDS STARTING WITH A UNIT OF TIME",
+                "members": [
+                    "DAYBREAK",
+                    "HOURGLASS",
+                    "MINUTEMAN",
+                    "SECONDARY"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 674,
+        "date": "2025-04-15",
+        "answers": [
+            {
+                "level": 0,
+                "group": "HOTEL FRONT DESK ESSENTIALS",
+                "members": [
+                    "BELL",
+                    "KEYCARD",
+                    "LEDGER",
+                    "VOUCHER"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "STROLL WITHOUT HURRY",
+                "members": [
+                    "AMBLE",
+                    "MEANDER",
+                    "SAUNTER",
+                    "WANDER"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "OCEANOGRAPHIC TRENCHES",
+                "members": [
+                    "JAVA",
+                    "MARIANA",
+                    "PUERTO RICO",
+                    "TONGA"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "___ GLASS",
+                "members": [
+                    "HOUR",
+                    "LOOKING",
+                    "MAGNIFYING",
+                    "SPY"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 675,
+        "date": "2025-04-16",
+        "answers": [
+            {
+                "level": 0,
+                "group": "WINTER OUTERWEAR ACCESSORIES",
+                "members": [
+                    "BEANIE",
+                    "EARMUFFS",
+                    "MITTENS",
+                    "SCARF"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "GIVE UP RELUCTANTLY",
+                "members": [
+                    "CEDE",
+                    "FORFEIT",
+                    "RELINQUISH",
+                    "YIELD"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "ISLAND NATIONS OF THE CARIBBEAN",
+                "members": [
+                    "BARBADOS",
+                    "DOMINICA",
+                    "GRENADA",
+                    "JAMAICA"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "ANAGRAMS OF ENGLISH COLORS",
+                "members": [
+                    "CAROL",
+                    "CHEAP",
+                    "LUBE",
+                    "MILE"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 676,
+        "date": "2025-04-17",
+        "answers": [
+            {
+                "level": 0,
+                "group": "COFFEE BREWING APPARATUS",
+                "members": [
+                    "AEROPRESS",
+                    "CHEMEX",
+                    "MOKA POT",
+                    "PERCOLATOR"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "STATE OF COMPLETE CONFUSION",
+                "members": [
+                    "BEDLAM",
+                    "CHAOS",
+                    "HAVOC",
+                    "MAYHEM"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "STRATOVOLCANOES AROUND THE GLOBE",
+                "members": [
+                    "ETNA",
+                    "FUJI",
+                    "KILIMANJARO",
+                    "VESUVIUS"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "PAPER ___",
+                "members": [
+                    "CHASE",
+                    "CLIP",
+                    "TIGER",
+                    "TRAIL"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 677,
+        "date": "2025-04-18",
+        "answers": [
+            {
+                "level": 0,
+                "group": "DESK STATIONERY SUPPLIES",
+                "members": [
+                    "BINDER",
+                    "HIGHLIGHTER",
+                    "NOTEPAD",
+                    "STAPLER"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "CLEVER SCHEME OR TRICK",
+                "members": [
+                    "GAMBIT",
+                    "PLOY",
+                    "RUSE",
+                    "STRATAGEM"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "WORLD CHESS CHAMPIONS",
+                "members": [
+                    "ANAND",
+                    "CARLSEN",
+                    "FISCHER",
+                    "KASPAROV"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "WORDS THAT SOUND LIKE LETTERS",
+                "members": [
+                    "BEE",
+                    "CAY",
+                    "EYE",
+                    "QUEUE"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 678,
+        "date": "2025-04-19",
+        "answers": [
+            {
+                "level": 0,
+                "group": "STAPLE ITALIAN CHEESES",
+                "members": [
+                    "FONTINA",
+                    "GORGONZOLA",
+                    "MOZZARELLA",
+                    "PARMIGIANO"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "CRITICIZE HARSHLY",
+                "members": [
+                    "BERATE",
+                    "CHASTISE",
+                    "REBUKE",
+                    "SCOLD"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "ANCIENT WONDERS LOCATIONS",
+                "members": [
+                    "ALEXANDRIA",
+                    "BABYLON",
+                    "EPHESUS",
+                    "RHODES"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "___ WATCH",
+                "members": [
+                    "BAY",
+                    "NEIGHBORHOOD",
+                    "NIGHT",
+                    "POCKET"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 679,
+        "date": "2025-04-20",
+        "answers": [
+            {
+                "level": 0,
+                "group": "BATHROOM VANITY FIXTURES",
+                "members": [
+                    "FAUCET",
+                    "MIRROR",
+                    "SINK",
+                    "SOAP DISH"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "GLITTER OR SHINE SOFTLY",
+                "members": [
+                    "GLEAM",
+                    "GLIMMER",
+                    "SHIMMER",
+                    "TWINKLE"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "PIONEERS OF COMPUTING",
+                "members": [
+                    "BABBAGE",
+                    "HOPPER",
+                    "LOVELACE",
+                    "TURING"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "STARTING WITH A CARDINAL DIRECTION",
+                "members": [
+                    "EASTER",
+                    "NORTHERN",
+                    "SOUTHWEST",
+                    "WESTERN"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 680,
+        "date": "2025-04-21",
+        "answers": [
+            {
+                "level": 0,
+                "group": "SAILBOAT RIGGING COMPONENTS",
+                "members": [
+                    "BOOM",
+                    "HALYARD",
+                    "MAST",
+                    "RUDDER"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "EXPRESS STRONG APPROVAL",
+                "members": [
+                    "APPLAUD",
+                    "COMMEND",
+                    "EXTOL",
+                    "LAUD"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "SHAKESPEAREAN COMEDIES",
+                "members": [
+                    "AS YOU LIKE IT",
+                    "COMEDY OF ERRORS",
+                    "MUCH ADO ABOUT NOTHING",
+                    "TWELFTH NIGHT"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "BLIND ___",
+                "members": [
+                    "ALLEY",
+                    "DATE",
+                    "FAITH",
+                    "SPOT"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 681,
+        "date": "2025-04-22",
+        "answers": [
+            {
+                "level": 0,
+                "group": "SPICE RACK DRIED HERBS",
+                "members": [
+                    "BASIL",
+                    "OREGANO",
+                    "ROSEMARY",
+                    "THYME"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "STUBBORNLY UNYIELDING",
+                "members": [
+                    "ADAMANT",
+                    "DOGGED",
+                    "OBSTINATE",
+                    "RESOLUTE"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "LANDLOCKED COUNTRIES IN EUROPE",
+                "members": [
+                    "ANDORRA",
+                    "AUSTRIA",
+                    "HUNGARY",
+                    "SLOVAKIA"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "___ ENGINE",
+                "members": [
+                    "DIESEL",
+                    "FIRE",
+                    "SEARCH",
+                    "STEAM"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 682,
+        "date": "2025-04-23",
+        "answers": [
+            {
+                "level": 0,
+                "group": "GYM STRENGTH EQUIPMENT",
+                "members": [
+                    "BARBELL",
+                    "DUMBBELL",
+                    "KETTLEBELL",
+                    "RACK"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "TEMPORARY PAUSE OR BREAK",
+                "members": [
+                    "HIATUS",
+                    "INTERLUDE",
+                    "LULL",
+                    "RESPITE"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "LAYERS OF EARTH'S ATMOSPHERE",
+                "members": [
+                    "EXOSPHERE",
+                    "MESOSPHERE",
+                    "STRATOSPHERE",
+                    "TROPOSPHERE"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "COLD ___",
+                "members": [
+                    "FEET",
+                    "SHOULDER",
+                    "TURKEY",
+                    "WAR"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 683,
+        "date": "2025-04-24",
+        "answers": [
+            {
+                "level": 0,
+                "group": "AQUARIUM TANK ESSENTIALS",
+                "members": [
+                    "AERATOR",
+                    "FILTER",
+                    "GRAVEL",
+                    "HEATER"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "CONCEAL FROM VIEW",
+                "members": [
+                    "CLOAK",
+                    "MASK",
+                    "SHROUD",
+                    "VEIL"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "RENAISSANCE MASTERS OF ITALY",
+                "members": [
+                    "BOTTICELLI",
+                    "DONATELLO",
+                    "RAPHAEL",
+                    "TITIAN"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "WORDS WITH A SILENT 'K'",
+                "members": [
+                    "KNACK",
+                    "KNEEL",
+                    "KNIGHT",
+                    "KNUCKLE"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 684,
+        "date": "2025-04-25",
+        "answers": [
+            {
+                "level": 0,
+                "group": "STOVE COOKWARE VESSELS",
+                "members": [
+                    "CAULDRON",
+                    "DUTCH OVEN",
+                    "SKILLET",
+                    "WOK"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "FEELING OF DEEP REGRET",
+                "members": [
+                    "CONTRITION",
+                    "GUILT",
+                    "PENITENCE",
+                    "REMORSE"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "MUSICAL TEMPO MARKINGS",
+                "members": [
+                    "ADAGIO",
+                    "ALLEGRO",
+                    "ANDANTE",
+                    "PRESTO"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "___ TOWER",
+                "members": [
+                    "BELL",
+                    "CLOCK",
+                    "CONTROL",
+                    "WATER"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 685,
+        "date": "2025-04-26",
+        "answers": [
+            {
+                "level": 0,
+                "group": "ORCHARD STONE FRUITS",
+                "members": [
+                    "APRICOT",
+                    "CHERRY",
+                    "NECTARINE",
+                    "PLUM"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "EXHAUST COMPLETELY",
+                "members": [
+                    "DEPLETE",
+                    "DRAIN",
+                    "SAP",
+                    "SPEND"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "TYPES OF CLOUD FORMATIONS",
+                "members": [
+                    "CIRRUS",
+                    "CUMULUS",
+                    "NIMBUS",
+                    "STRATUS"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "SWEET ___",
+                "members": [
+                    "HEART",
+                    "NOTHINGS",
+                    "SPOT",
+                    "TOOTH"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 686,
+        "date": "2025-04-27",
+        "answers": [
+            {
+                "level": 0,
+                "group": "THEATER STAGE ELEMENTS",
+                "members": [
+                    "APRON",
+                    "BACKDROP",
+                    "FOOTLIGHT",
+                    "WING"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "EXTREMELY CAREFUL WITH MONEY",
+                "members": [
+                    "FRUGAL",
+                    "MISERLY",
+                    "SPARING",
+                    "THRIFTY"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "HISTORIC SILK ROAD CITIES",
+                "members": [
+                    "BUKHARA",
+                    "KASHGAR",
+                    "SAMARKAND",
+                    "XIAN"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "___ BRIDGE",
+                "members": [
+                    "DRAW",
+                    "LONDON",
+                    "SUSPENSION",
+                    "TOLL"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 687,
+        "date": "2025-04-28",
+        "answers": [
+            {
+                "level": 0,
+                "group": "FIRST AID KIT CONTENTS",
+                "members": [
+                    "ANTISEPTIC",
+                    "GAUZE",
+                    "SPLINT",
+                    "TWEEZERS"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "SUDDEN UNEXPECTED EVENT",
+                "members": [
+                    "BOMBSHELL",
+                    "CURVEBALL",
+                    "JOLT",
+                    "SHOCK"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "CANADIAN PROVINCES",
+                "members": [
+                    "ALBERTA",
+                    "MANITOBA",
+                    "ONTARIO",
+                    "QUEBEC"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "STARTING WITH A PLAYING CARD RANK",
+                "members": [
+                    "ACERBIC",
+                    "JACKPOT",
+                    "KINGDOM",
+                    "QUEENLY"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 688,
+        "date": "2025-04-29",
+        "answers": [
+            {
+                "level": 0,
+                "group": "CARPENTERS' MEASURING DEVICES",
+                "members": [
+                    "CALIPER",
+                    "LEVEL",
+                    "PLUMB BOB",
+                    "SQUARE"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "WASTE TIME IDLY",
+                "members": [
+                    "DALLY",
+                    "DAWDLE",
+                    "LOITER",
+                    "TARRY"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "ANCIENT MESOPOTAMIAN EMPIRES",
+                "members": [
+                    "AKKAD",
+                    "ASSYRIA",
+                    "BABYLONIA",
+                    "SUMER"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "OPEN ___",
+                "members": [
+                    "BOOK",
+                    "HOUSE",
+                    "MIC",
+                    "SECRET"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 689,
+        "date": "2025-04-30",
+        "answers": [
+            {
+                "level": 0,
+                "group": "PIZZA PARLOR TOPPINGS",
+                "members": [
+                    "ANCHOVY",
+                    "ARTICHOKE",
+                    "MUSHROOM",
+                    "PEPPERONI"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "EAGERLY ENTHUSIASTIC",
+                "members": [
+                    "ARDENT",
+                    "AVID",
+                    "FERVENT",
+                    "KEEN"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "MAJOR ARTERIES OF THE BODY",
+                "members": [
+                    "AORTA",
+                    "CAROTID",
+                    "FEMORAL",
+                    "RADIAL"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "___ MILL",
+                "members": [
+                    "PEPPER",
+                    "RUMOR",
+                    "TREAD",
+                    "WIND"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 690,
+        "date": "2025-05-01",
+        "answers": [
+            {
+                "level": 0,
+                "group": "PENCIL CASE ESSENTIALS",
+                "members": [
+                    "COMPASS",
+                    "ERASER",
+                    "PROTRACTOR",
+                    "SHARPENER"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "SLIGHT HINT OR TRACE",
+                "members": [
+                    "INKLING",
+                    "SHRED",
+                    "TINGE",
+                    "WHIFF"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "SCANDINAVIAN MYTHOLOGY REALMS",
+                "members": [
+                    "ALFHEIM",
+                    "ASGARD",
+                    "JOTUNHEIM",
+                    "MIDGARD"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "BRAIN ___",
+                "members": [
+                    "DRAIN",
+                    "FREEZE",
+                    "STORM",
+                    "WAVE"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 691,
+        "date": "2025-05-02",
+        "answers": [
+            {
+                "level": 0,
+                "group": "LAUNDRY ROOM APPLIANCES AND TOOLS",
+                "members": [
+                    "CLOTHESLINE",
+                    "DRYER",
+                    "IRONING BOARD",
+                    "STEAMER"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "SPEAK AT GREAT LENGTH",
+                "members": [
+                    "DRONE",
+                    "PRATTLE",
+                    "RAMBLE",
+                    "WAX"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "IGNEOUS ROCK VARIETIES",
+                "members": [
+                    "BASALT",
+                    "GRANITE",
+                    "OBSIDIAN",
+                    "PUMICE"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "___ COUNTER",
+                "members": [
+                    "BEAN",
+                    "GEIGER",
+                    "KITCHEN",
+                    "OVER THE"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 692,
+        "date": "2025-05-03",
+        "answers": [
+            {
+                "level": 0,
+                "group": "PARTS OF A BOOK BINDING",
+                "members": [
+                    "BOARDS",
+                    "ENDPAPER",
+                    "GUTTER",
+                    "HEADBAND"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "FEELING OF DEEP SATISFACTION",
+                "members": [
+                    "BLISS",
+                    "CONTENTMENT",
+                    "ELATION",
+                    "GLEE"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "SEAS BORDERING EUROPE",
+                "members": [
+                    "ADRIATIC",
+                    "AEGEAN",
+                    "BALTIC",
+                    "TYRRHENIAN"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "SHADOW ___",
+                "members": [
+                    "BAN",
+                    "BOX",
+                    "CABINET",
+                    "PUPPET"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 693,
+        "date": "2025-05-04",
+        "answers": [
+            {
+                "level": 0,
+                "group": "DENTAL HYGIENE SUPPLIES",
+                "members": [
+                    "BRUSH",
+                    "FLOSS",
+                    "PASTE",
+                    "RINSE"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "CAUTIOUS AND HESITANT",
+                "members": [
+                    "CHARY",
+                    "GUARDED",
+                    "LEERY",
+                    "WARY"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "CONSTELLATIONS OF THE NORTHERN SKY",
+                "members": [
+                    "ANDROMEDA",
+                    "CASSIOPEIA",
+                    "CYGNUS",
+                    "PERSEUS"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "WORDS ENDING IN A NUMBER",
+                "members": [
+                    "ATONE",
+                    "BENIGN",
+                    "CANINE",
+                    "OFTEN"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 694,
+        "date": "2025-05-05",
+        "answers": [
+            {
+                "level": 0,
+                "group": "BOWLING ALLEY TERMS",
+                "members": [
+                    "GUTTER",
+                    "LANE",
+                    "SPARE",
+                    "STRIKE"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "QUICK GLANCE",
+                "members": [
+                    "GLIMPSE",
+                    "PEEK",
+                    "PEEP",
+                    "SQUINT"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "CURING AND PRESERVING METHODS",
+                "members": [
+                    "BRINING",
+                    "CANNING",
+                    "PICKLING",
+                    "SMOKING"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "___ STAMP",
+                "members": [
+                    "FOOD",
+                    "POSTAGE",
+                    "RUBBER",
+                    "TIME"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 695,
+        "date": "2025-05-06",
+        "answers": [
+            {
+                "level": 0,
+                "group": "PHOTOGRAPHY CAMERA PARTS",
+                "members": [
+                    "APERTURE",
+                    "LENS",
+                    "SHUTTER",
+                    "VIEWFINDER"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "UNEXPECTEDLY ABUNDANT",
+                "members": [
+                    "COPIOUS",
+                    "LAVISH",
+                    "PLENTIFUL",
+                    "PROFUSE"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "FAMOUS FRENCH PAINTERS",
+                "members": [
+                    "CEZANNE",
+                    "DEGAS",
+                    "MATISSE",
+                    "RENOIR"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "STARTING WITH A DAY ABBREVIATION",
+                "members": [
+                    "FRIAR",
+                    "MONARCH",
+                    "SATIRE",
+                    "WEDDING"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 696,
+        "date": "2025-05-07",
+        "answers": [
+            {
+                "level": 0,
+                "group": "BREAKFAST CEREAL GRAINS",
+                "members": [
+                    "BARLEY",
+                    "BUCKWHEAT",
+                    "MILLET",
+                    "OATS"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "GENTLE AND MILD IN MANNER",
+                "members": [
+                    "DOCILE",
+                    "MEEK",
+                    "PLACID",
+                    "TAME"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "AFRICAN GREAT LAKES",
+                "members": [
+                    "ALBERT",
+                    "MALAWI",
+                    "TANGANYIKA",
+                    "VICTORIA"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "IRON ___",
+                "members": [
+                    "CLAD",
+                    "CURTAIN",
+                    "LUNG",
+                    "MAIDEN"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 697,
+        "date": "2025-05-08",
+        "answers": [
+            {
+                "level": 0,
+                "group": "GARAGE AUTO REPAIR TOOLS",
+                "members": [
+                    "JACK",
+                    "LUG WRENCH",
+                    "RATCHET",
+                    "TORQUE WRENCH"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "AFFIX FIRMLY",
+                "members": [
+                    "ANCHOR",
+                    "FASTEN",
+                    "MOOR",
+                    "TETHER"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "BLOOD CELL COMPONENTS",
+                "members": [
+                    "LEUKOCYTE",
+                    "PLASMA",
+                    "PLATELET",
+                    "RED CELL"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "WORDS HIDING A METAL",
+                "members": [
+                    "ENVIRON",
+                    "MARIGOLD",
+                    "PLEADING",
+                    "TINKER"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 698,
+        "date": "2025-05-09",
+        "answers": [
+            {
+                "level": 0,
+                "group": "ARTIST'S STUDIO SUPPLIES",
+                "members": [
+                    "CHARCOAL",
+                    "GESSO",
+                    "PALETTE KNIFE",
+                    "TURPENTINE"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "INTENSELY FOCUSED",
+                "members": [
+                    "ABSORBED",
+                    "ENGROSSED",
+                    "IMMERSED",
+                    "RAPT"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "NATIONAL CURRENCIES OUTSIDE THE DOLLAR",
+                "members": [
+                    "BAHT",
+                    "FORINT",
+                    "KRONE",
+                    "ZLOTY"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "___ ALARM",
+                "members": [
+                    "BURGLAR",
+                    "FALSE",
+                    "FIRE",
+                    "SMOKE"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 699,
+        "date": "2025-05-10",
+        "answers": [
+            {
+                "level": 0,
+                "group": "CITRUS ORCHARD VARIETIES",
+                "members": [
+                    "CLEMENTINE",
+                    "KUMQUAT",
+                    "POMELO",
+                    "TANGELO"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "INCREASE IN INTENSITY",
+                "members": [
+                    "AMPLIFY",
+                    "ESCALATE",
+                    "HEIGHTEN",
+                    "MOUNT"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "MEDIEVAL CASTLE DEFENSES",
+                "members": [
+                    "BATTLEMENT",
+                    "DRAWBRIDGE",
+                    "MOAT",
+                    "PORTCULLIS"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "HOMOPHONES OF ANIMALS",
+                "members": [
+                    "BARE",
+                    "DEAR",
+                    "FLEE",
+                    "HAIR"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 700,
+        "date": "2025-05-11",
+        "answers": [
+            {
+                "level": 0,
+                "group": "POST OFFICE MAILING ITEMS",
+                "members": [
+                    "ENVELOPE",
+                    "PARCEL",
+                    "POSTCARD",
+                    "TUBE"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "VERY OLD-FASHIONED",
+                "members": [
+                    "ANTIQUE",
+                    "ARCHAIC",
+                    "BYGONE",
+                    "DATED"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "FAMOUS MATHEMATICIANS",
+                "members": [
+                    "EUCLID",
+                    "EULER",
+                    "GAUSS",
+                    "NOETHER"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "VELVET ___",
+                "members": [
+                    "CRUSHED",
+                    "GLOVE",
+                    "ROPE",
+                    "UNDERGROUND"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 701,
+        "date": "2025-05-12",
+        "answers": [
+            {
+                "level": 0,
+                "group": "DINING TABLE LINENS",
+                "members": [
+                    "NAPKIN",
+                    "PLACEMAT",
+                    "RUNNER",
+                    "TABLECLOTH"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "CAUSE TO FEEL PUZZLED",
+                "members": [
+                    "BAFFLE",
+                    "MYSTIFY",
+                    "PERPLEX",
+                    "STUMP"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "TYPES OF BRIDGE STRUCTURES",
+                "members": [
+                    "ARCH",
+                    "CABLE-STAYED",
+                    "CANTILEVER",
+                    "TRUSS"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "___ COAT",
+                "members": [
+                    "LAB",
+                    "OVER",
+                    "RAIN",
+                    "SUGAR"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 702,
+        "date": "2025-05-13",
+        "answers": [
+            {
+                "level": 0,
+                "group": "SHOE COBBLER PARTS",
+                "members": [
+                    "EYELETS",
+                    "HEEL",
+                    "INSOLE",
+                    "TONGUE"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "BRAG EXCESSIVELY",
+                "members": [
+                    "BLUSTER",
+                    "BOAST",
+                    "CROW",
+                    "GLOAT"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "ANCIENT GREEK DRAMATISTS",
+                "members": [
+                    "AESCHYLUS",
+                    "ARISTOPHANES",
+                    "EURIPIDES",
+                    "SOPHOCLES"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "WORDS STARTING WITH A GEMSTONE",
+                "members": [
+                    "AMBERGRIS",
+                    "JADED",
+                    "OPALINE",
+                    "PEARLITE"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 703,
+        "date": "2025-05-14",
+        "answers": [
+            {
+                "level": 0,
+                "group": "FIREPLACE HEARTH TOOLS",
+                "members": [
+                    "BELLOWS",
+                    "POKER",
+                    "SHOVEL",
+                    "TONGS"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "EASILY BROKEN OR DAMAGED",
+                "members": [
+                    "BRITTLE",
+                    "DELICATE",
+                    "FRAGILE",
+                    "FRAIL"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "SOUTH AMERICAN CAPITALS",
+                "members": [
+                    "ASUNCION",
+                    "BOGOTA",
+                    "MONTEVIDEO",
+                    "QUITO"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "___ WIRE",
+                "members": [
+                    "BARBED",
+                    "HIGH",
+                    "LIVE",
+                    "TRIP"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 704,
+        "date": "2025-05-15",
+        "answers": [
+            {
+                "level": 0,
+                "group": "BREAD BAKING INGREDIENTS",
+                "members": [
+                    "FLOUR",
+                    "SALT",
+                    "STARTER",
+                    "YEAST"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "ACT WITH EXTREME CARE",
+                "members": [
+                    "HANDLE",
+                    "NURSE",
+                    "PAMPER",
+                    "TEND"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "TYPES OF SEISMIC WAVES",
+                "members": [
+                    "LOVE",
+                    "PRIMARY",
+                    "RAYLEIGH",
+                    "SECONDARY"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "___ LOCK",
+                "members": [
+                    "AIR",
+                    "DEAD",
+                    "GRID",
+                    "PAD"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 705,
+        "date": "2025-05-16",
+        "answers": [
+            {
+                "level": 0,
+                "group": "TAILOR'S ALTERATION TOOLS",
+                "members": [
+                    "CHALK",
+                    "PINCUSHION",
+                    "SHEARS",
+                    "TAPE MEASURE"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "DISAGREE SHARPLY",
+                "members": [
+                    "CLASH",
+                    "COLLIDE",
+                    "CONFLICT",
+                    "SPAR"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "GREAT NOVELS OF THE 19TH CENTURY",
+                "members": [
+                    "EMMA",
+                    "JANE EYRE",
+                    "MIDDLEMARCH",
+                    "MOBY-DICK"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "___ STONE",
+                "members": [
+                    "CORNER",
+                    "KEY",
+                    "MILE",
+                    "STEPPING"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 706,
+        "date": "2025-05-17",
+        "answers": [
+            {
+                "level": 0,
+                "group": "TENNIS COURT ELEMENTS",
+                "members": [
+                    "ALLEY",
+                    "BASELINE",
+                    "NET",
+                    "SERVICE BOX"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "MAKE MORE ATTRACTIVE",
+                "members": [
+                    "ADORN",
+                    "DECK",
+                    "EMBELLISH",
+                    "GARNISH"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "CHEMICAL LABORATORY GLASSWARE",
+                "members": [
+                    "BURETTE",
+                    "ERLENMEYER",
+                    "PIPETTE",
+                    "TEST TUBE"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "___ HOOK",
+                "members": [
+                    "COAT",
+                    "FISH",
+                    "LEFT",
+                    "SKY"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 707,
+        "date": "2025-05-18",
+        "answers": [
+            {
+                "level": 0,
+                "group": "BEACH DAY ESSENTIALS",
+                "members": [
+                    "COOLER",
+                    "PARASOL",
+                    "SUNSCREEN",
+                    "TOWEL"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "SPEAK IN ANGER",
+                "members": [
+                    "BARK",
+                    "RANT",
+                    "SNAP",
+                    "SNARL"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "EUROPEAN MOUNTAIN RANGES",
+                "members": [
+                    "APENNINES",
+                    "CARPATHIANS",
+                    "DOLOMITES",
+                    "PYRENEES"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "DEAD ___",
+                "members": [
+                    "END",
+                    "HEAT",
+                    "PAN",
+                    "RINGER"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 708,
+        "date": "2025-05-19",
+        "answers": [
+            {
+                "level": 0,
+                "group": "ORCHESTRA PERCUSSION INSTRUMENTS",
+                "members": [
+                    "CYMBALS",
+                    "MARIMBA",
+                    "SNARE",
+                    "TIMPANI"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "SEVERE AND HARSH",
+                "members": [
+                    "AUSTERE",
+                    "GRIM",
+                    "STARK",
+                    "STERN"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "FAMOUS EXPLORERS OF THE SEA",
+                "members": [
+                    "COOK",
+                    "DRAKE",
+                    "MAGELLAN",
+                    "TASMAN"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "WORDS THAT DROP FIRST LETTER TO BECOME BODY PARTS",
+                "members": [
+                    "CHIP",
+                    "CLIPS",
+                    "FARM",
+                    "HEAR"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 709,
+        "date": "2025-05-20",
+        "answers": [
+            {
+                "level": 0,
+                "group": "CLOCKMAKER COMPONENTS",
+                "members": [
+                    "ESCAPEMENT",
+                    "GEAR",
+                    "PENDULUM",
+                    "SPRING"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "MOVE QUICKLY AND NIMBLY",
+                "members": [
+                    "DART",
+                    "FLIT",
+                    "SCURRY",
+                    "ZIP"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "TYPES OF VOLCANIC MATERIAL",
+                "members": [
+                    "ASH",
+                    "LAVA",
+                    "MAGMA",
+                    "TEPHRA"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "___ PROOF",
+                "members": [
+                    "BULLET",
+                    "FOOL",
+                    "SOUND",
+                    "WATER"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 710,
+        "date": "2025-05-21",
+        "answers": [
+            {
+                "level": 0,
+                "group": "ICE CREAM PARLOR TOPPINGS",
+                "members": [
+                    "CARAMEL",
+                    "FUDGE",
+                    "SPRINKLES",
+                    "WHIPPED CREAM"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "STRONGLY SUPPORT A CAUSE",
+                "members": [
+                    "ADVOCATE",
+                    "ESPOUSE",
+                    "PROMOTE",
+                    "UPHOLD"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "UNITS OF ELECTRICAL MEASUREMENT",
+                "members": [
+                    "AMPERE",
+                    "OHM",
+                    "VOLT",
+                    "WATT"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "HIGH ___",
+                "members": [
+                    "FIVE",
+                    "NOON",
+                    "TIDE",
+                    "WIRE"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 711,
+        "date": "2025-05-22",
+        "answers": [
+            {
+                "level": 0,
+                "group": "AIRPORT TERMINAL AREAS",
+                "members": [
+                    "CONCOURSE",
+                    "CUSTOMS",
+                    "GATE",
+                    "LOUNGE"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "SUDDENLY STOP OR HESITATE",
+                "members": [
+                    "BALK",
+                    "CHECK",
+                    "FALTER",
+                    "STALL"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "MAJOR BONES OF THE HUMAN LEG",
+                "members": [
+                    "FEMUR",
+                    "FIBULA",
+                    "PATELLA",
+                    "TIBIA"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "___ BELT",
+                "members": [
+                    "ASTEROID",
+                    "BLACK",
+                    "CONVEYOR",
+                    "SEAT"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 712,
+        "date": "2025-05-23",
+        "answers": [
+            {
+                "level": 0,
+                "group": "FARM BARNYARD STRUCTURES",
+                "members": [
+                    "COOP",
+                    "GRANARY",
+                    "SILO",
+                    "STABLE"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "PRODUCE A FAINT SOUND",
+                "members": [
+                    "CREAK",
+                    "RUSTLE",
+                    "SIGH",
+                    "WHIR"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "FAMOUS BRITISH ARCHITECTS",
+                "members": [
+                    "FOSTER",
+                    "HADID",
+                    "NASH",
+                    "WREN"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "___ COMPASS",
+                "members": [
+                    "GYRO",
+                    "MAGNETIC",
+                    "MORAL",
+                    "SOLAR"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 713,
+        "date": "2025-05-24",
+        "answers": [
+            {
+                "level": 0,
+                "group": "SWIMMING POOL ACCESSORIES",
+                "members": [
+                    "FLOAT",
+                    "GOGGLES",
+                    "KICKBOARD",
+                    "NOODLE"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "EXPRESS DISAPPOINTMENT",
+                "members": [
+                    "GROAN",
+                    "LAMENT",
+                    "MOAN",
+                    "RUE"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "NATIVE AUSTRALIAN MARSUPIALS",
+                "members": [
+                    "BANDICOOT",
+                    "BILBY",
+                    "NUMBAT",
+                    "QUOKKA"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "FREE ___",
+                "members": [
+                    "FALL",
+                    "LANCE",
+                    "RADICAL",
+                    "SPIRIT"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 714,
+        "date": "2025-05-25",
+        "answers": [
+            {
+                "level": 0,
+                "group": "POTTERY STUDIO EQUIPMENT",
+                "members": [
+                    "CLAY",
+                    "GLAZE",
+                    "KILN",
+                    "WHEEL"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "EXTREMELY LIVELY",
+                "members": [
+                    "BUBBLY",
+                    "PEPPY",
+                    "PERKY",
+                    "ZIPPY"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "RIVERS OF SOUTH ASIA",
+                "members": [
+                    "BRAHMAPUTRA",
+                    "GANGES",
+                    "GODAVARI",
+                    "INDUS"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "___ CONE",
+                "members": [
+                    "ICE CREAM",
+                    "PINE",
+                    "SNOW",
+                    "TRAFFIC"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 715,
+        "date": "2025-05-26",
+        "answers": [
+            {
+                "level": 0,
+                "group": "CAMPFIRE COOKING ITEMS",
+                "members": [
+                    "CAST IRON",
+                    "GRATE",
+                    "SKEWER",
+                    "TINDER"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "LOOK AT WITH ADMIRATION",
+                "members": [
+                    "BEHOLD",
+                    "GAZE",
+                    "MARVEL",
+                    "REGARD"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "FAMOUS SYMPHONIES BY NICKNAME",
+                "members": [
+                    "EROICA",
+                    "JUPITER",
+                    "NEW WORLD",
+                    "PASTORAL"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "STARTING WITH A SOLFEGE SYLLABLE",
+                "members": [
+                    "DOLLAR",
+                    "FABRIC",
+                    "LADDER",
+                    "MIRROR"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 716,
+        "date": "2025-05-27",
+        "answers": [
+            {
+                "level": 0,
+                "group": "BARISTA ESPRESSO DRINKS",
+                "members": [
+                    "AMERICANO",
+                    "CORTADO",
+                    "FLAT WHITE",
+                    "MACCHIATO"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "MOVE WITH HEAVY STEPS",
+                "members": [
+                    "GALUMPH",
+                    "SCHLEP",
+                    "SLOG",
+                    "STOMP"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "MAJOR STRAITS OF THE WORLD",
+                "members": [
+                    "BOSPORUS",
+                    "GIBRALTAR",
+                    "HORMUZ",
+                    "MALACCA"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "___ GATE",
+                "members": [
+                    "FLOOD",
+                    "GOLDEN",
+                    "STARTING",
+                    "TAIL"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 717,
+        "date": "2025-05-28",
+        "answers": [
+            {
+                "level": 0,
+                "group": "KITCHEN BAKING PANS",
+                "members": [
+                    "BUNDT",
+                    "LOAF",
+                    "MUFFIN",
+                    "SPRINGFORM"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "SHARP OR BITING IN TONE",
+                "members": [
+                    "ACIDIC",
+                    "CAUSTIC",
+                    "MORDANT",
+                    "TRENCHANT"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "FAMOUS SCIENTIFIC LAWS",
+                "members": [
+                    "BOYLE'S",
+                    "HOOKE'S",
+                    "KEPLER'S",
+                    "OHM'S"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "WORDS ENDING IN A UNIT OF LENGTH",
+                "members": [
+                    "AFOOT",
+                    "FINCH",
+                    "LANYARD",
+                    "SMILE"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 718,
+        "date": "2025-05-29",
+        "answers": [
+            {
+                "level": 0,
+                "group": "HIKING TRAIL GEAR",
+                "members": [
+                    "CANTEEN",
+                    "GAITERS",
+                    "HEADLAMP",
+                    "TREKKING POLE"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "EXPRESS DOUBT OR DISBELIEF",
+                "members": [
+                    "SCOFF",
+                    "SNEER",
+                    "SNORT",
+                    "TUT"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "TYPES OF CLOUDS BY ALTITUDE",
+                "members": [
+                    "ALTOCUMULUS",
+                    "CIRROSTRATUS",
+                    "CUMULONIMBUS",
+                    "NIMBOSTRATUS"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "___ MIRROR",
+                "members": [
+                    "FUNHOUSE",
+                    "HAND",
+                    "REARVIEW",
+                    "VANITY"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 719,
+        "date": "2025-05-30",
+        "answers": [
+            {
+                "level": 0,
+                "group": "SALAD DRESSING BASES",
+                "members": [
+                    "BALSAMIC",
+                    "BUTTERMILK",
+                    "OLIVE OIL",
+                    "TAHINI"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "SHORT AND TO THE POINT",
+                "members": [
+                    "BRIEF",
+                    "CONCISE",
+                    "PITHY",
+                    "TERSE"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "ANCIENT EGYPTIAN DEITIES",
+                "members": [
+                    "ANUBIS",
+                    "HORUS",
+                    "OSIRIS",
+                    "THOTH"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "WATER ___",
+                "members": [
+                    "BED",
+                    "LILY",
+                    "MELON",
+                    "SHED"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 720,
+        "date": "2025-05-31",
+        "answers": [
+            {
+                "level": 0,
+                "group": "MUSIC RECORDING STUDIO GEAR",
+                "members": [
+                    "AMPLIFIER",
+                    "HEADPHONES",
+                    "MICROPHONE",
+                    "MIXER"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "CHANGE DIRECTION ABRUPTLY",
+                "members": [
+                    "SWERVE",
+                    "VEER",
+                    "YAW",
+                    "ZIGZAG"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "TYPES OF CORAL REEFS",
+                "members": [
+                    "ATOLL",
+                    "BARRIER",
+                    "FRINGING",
+                    "PATCH"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "HOMOPHONES OF TREES",
+                "members": [
+                    "BEACH",
+                    "CYPRUS",
+                    "EWE",
+                    "FUR"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 721,
+        "date": "2025-06-01",
+        "answers": [
+            {
+                "level": 0,
+                "group": "CARPENTRY FASTENERS",
+                "members": [
+                    "BRAD",
+                    "DOWEL",
+                    "RIVET",
+                    "SCREW"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "LACKING ENERGY OR ENTHUSIASM",
+                "members": [
+                    "LANGUID",
+                    "LISTLESS",
+                    "SLUGGISH",
+                    "TORPID"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "CLASSIC BOARD GAMES OF STRATEGY",
+                "members": [
+                    "MANCALA",
+                    "NINE MEN'S MORRIS",
+                    "OTHELLO",
+                    "SHOGI"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "___ PIPE",
+                "members": [
+                    "DRAIN",
+                    "EXHAUST",
+                    "HALF",
+                    "STOVE"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 722,
+        "date": "2025-06-02",
+        "answers": [
+            {
+                "level": 0,
+                "group": "SOUP BOWL ACCOMPANIMENTS",
+                "members": [
+                    "CRACKERS",
+                    "CROUTONS",
+                    "GARLIC BREAD",
+                    "OYSTER CRACKERS"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "MAKE A FALSE CLAIM",
+                "members": [
+                    "FABRICATE",
+                    "FEIGN",
+                    "FIB",
+                    "PREVARICATE"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "METAMORPHIC ROCK VARIETIES",
+                "members": [
+                    "GNEISS",
+                    "MARBLE",
+                    "QUARTZITE",
+                    "SLATE"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "STARTING WITH A MONTH ABBREVIATION",
+                "members": [
+                    "DECADE",
+                    "JANITOR",
+                    "MARMOT",
+                    "OCTOPUS"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 723,
+        "date": "2025-06-03",
+        "answers": [
+            {
+                "level": 0,
+                "group": "CLASSROOM CHALKBOARD SUPPLIES",
+                "members": [
+                    "CHALK",
+                    "DUSTER",
+                    "POINTER",
+                    "RULER"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "FILLED WITH WONDER",
+                "members": [
+                    "AGHAST",
+                    "ASTOUNDED",
+                    "AWESTRUCK",
+                    "FLOORED"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "FAMOUS RIVERS OF SOUTH AMERICA",
+                "members": [
+                    "AMAZON",
+                    "ORINOCO",
+                    "PARANA",
+                    "SAO FRANCISCO"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "___ FOUNTAIN",
+                "members": [
+                    "CHOCOLATE",
+                    "DRINKING",
+                    "SODA",
+                    "YOUTH"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 724,
+        "date": "2025-06-04",
+        "answers": [
+            {
+                "level": 0,
+                "group": "PASTA SHAPES WITH TUBES",
+                "members": [
+                    "MANICOTTI",
+                    "PENNE",
+                    "RIGATONI",
+                    "ZITI"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "AVOID BY CLEVERNESS",
+                "members": [
+                    "DODGE",
+                    "ELUDE",
+                    "EVADE",
+                    "SIDESTEP"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "PARTS OF A FLOWER ANATOMY",
+                "members": [
+                    "ANTHER",
+                    "PETAL",
+                    "PISTIL",
+                    "SEPAL"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "WORDS THAT CAN PRECEDE 'CRAFT'",
+                "members": [
+                    "AIR",
+                    "HANDI",
+                    "SPACE",
+                    "WITCH"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 725,
+        "date": "2025-06-05",
+        "answers": [
+            {
+                "level": 0,
+                "group": "BASEBALL INFIELD POSITIONS",
+                "members": [
+                    "FIRST BASE",
+                    "SECOND BASE",
+                    "SHORTSTOP",
+                    "THIRD BASE"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "CALM AND COMPOSED",
+                "members": [
+                    "COLLECTED",
+                    "POISED",
+                    "SERENE",
+                    "UNRUFFLED"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "ISLANDS OF THE MEDITERRANEAN",
+                "members": [
+                    "CORSICA",
+                    "CRETE",
+                    "MALLORCA",
+                    "SARDINIA"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "WORDS HIDING A FRUIT",
+                "members": [
+                    "APPEAR",
+                    "CLIME",
+                    "FIGMENT",
+                    "PLUMBER"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 726,
+        "date": "2025-06-06",
+        "answers": [
+            {
+                "level": 0,
+                "group": "BICYCLE MAINTENANCE ITEMS",
+                "members": [
+                    "CHAIN LUBE",
+                    "PATCH KIT",
+                    "PUMP",
+                    "TIRE LEVER"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "ACT IN A PLAYFUL WAY",
+                "members": [
+                    "CAPER",
+                    "CAVORT",
+                    "FROLIC",
+                    "ROMP"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "CLASSICAL RHETORICAL DEVICES",
+                "members": [
+                    "ANAPHORA",
+                    "CHIASMUS",
+                    "HYPERBOLE",
+                    "METONYMY"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "___ TUNNEL",
+                "members": [
+                    "CARPAL",
+                    "CHANNEL",
+                    "TIME",
+                    "WIND"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 727,
+        "date": "2025-06-07",
+        "answers": [
+            {
+                "level": 0,
+                "group": "TROPICAL FRUIT BASKET",
+                "members": [
+                    "GUAVA",
+                    "LYCHEE",
+                    "MANGO",
+                    "PAPAYA"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "EXTREMELY ANGRY",
+                "members": [
+                    "APOPLECTIC",
+                    "ENRAGED",
+                    "FUMING",
+                    "SEETHING"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "PLANETARY PROBES AND MISSIONS",
+                "members": [
+                    "CASSINI",
+                    "GALILEO",
+                    "JUNO",
+                    "VOYAGER"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "NIGHT ___",
+                "members": [
+                    "CAP",
+                    "CRAWLER",
+                    "MARE",
+                    "OWL"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 728,
+        "date": "2025-06-08",
+        "answers": [
+            {
+                "level": 0,
+                "group": "JEWELRY BOX KEEPSAKES",
+                "members": [
+                    "ANKLET",
+                    "BROOCH",
+                    "CUFFLINK",
+                    "LOCKET"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "GIVE OFF A STRONG SCENT",
+                "members": [
+                    "EXUDE",
+                    "REEK",
+                    "WAFT",
+                    "WHIFF"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "MAJOR WORLD PENINSULAS",
+                "members": [
+                    "ARABIAN",
+                    "IBERIAN",
+                    "KAMCHATKA",
+                    "YUCATAN"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "___ ANCHOR",
+                "members": [
+                    "BOAT",
+                    "NEWS",
+                    "SEA",
+                    "WEIGHT"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 729,
+        "date": "2025-06-09",
+        "answers": [
+            {
+                "level": 0,
+                "group": "LITERARY GENRES ON A LIBRARY SHELF",
+                "members": [
+                    "ANTHOLOGY",
+                    "BIOGRAPHY",
+                    "MEMOIR",
+                    "POETRY"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "WEAKEN GRADUALLY",
+                "members": [
+                    "ERODE",
+                    "FRAY",
+                    "UNDERMINE",
+                    "WEAR"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "FAMOUS ARCHITECTURAL LANDMARKS",
+                "members": [
+                    "ALHAMBRA",
+                    "ANGKOR WAT",
+                    "HAGIA SOPHIA",
+                    "PARTHENON"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "WORDS ENDING IN A SHOP TOOL",
+                "members": [
+                    "CRAWL",
+                    "MANDRILL",
+                    "PROFILE",
+                    "SEESAW"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 730,
+        "date": "2025-06-10",
+        "answers": [
+            {
+                "level": 0,
+                "group": "CAMPING LANTERN AND FIRE STARTERS",
+                "members": [
+                    "FLINT",
+                    "KINDLING",
+                    "MATCHES",
+                    "WICK"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "SPEAK IN A BOOMING VOICE",
+                "members": [
+                    "BELLOW",
+                    "HOLLER",
+                    "ROAR",
+                    "THUNDER"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "TYPES OF GLACIAL LANDFORMS",
+                "members": [
+                    "CIRQUE",
+                    "DRUMLIN",
+                    "FJORD",
+                    "MORAINE"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "___ RIBBON",
+                "members": [
+                    "BLUE",
+                    "CRIME",
+                    "TYPEWRITER",
+                    "YELLOW"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 731,
+        "date": "2025-06-11",
+        "answers": [
+            {
+                "level": 0,
+                "group": "FARM HARVEST PRODUCE",
+                "members": [
+                    "GOURD",
+                    "PUMPKIN",
+                    "SQUASH",
+                    "TURNIP"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "SHOW GREAT RESPECT FOR",
+                "members": [
+                    "ESTEEM",
+                    "HONOR",
+                    "REVERE",
+                    "VENERATE"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "FAMOUS POLAR EXPLORERS",
+                "members": [
+                    "AMUNDSEN",
+                    "NANSEN",
+                    "SCOTT",
+                    "SHACKLETON"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "STONE ___",
+                "members": [
+                    "AGE",
+                    "COLD",
+                    "MASON",
+                    "WALL"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 732,
+        "date": "2025-06-12",
+        "answers": [
+            {
+                "level": 0,
+                "group": "SAUCEPAN SPICES IN CHAI",
+                "members": [
+                    "CARDAMOM",
+                    "CINNAMON",
+                    "CLOVE",
+                    "GINGER"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "TIGHTLY PACKED",
+                "members": [
+                    "CRAMMED",
+                    "DENSE",
+                    "JAMMED",
+                    "WEDGED"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "HUMAN ENDOCRINE GLANDS",
+                "members": [
+                    "ADRENAL",
+                    "PINEAL",
+                    "PITUITARY",
+                    "THYROID"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "WORDS THAT DROP LAST LETTER TO BECOME ANIMALS",
+                "members": [
+                    "BEARD",
+                    "CLAMP",
+                    "CROWN",
+                    "SWANK"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 733,
+        "date": "2025-06-13",
+        "answers": [
+            {
+                "level": 0,
+                "group": "PICNIC BASKET PROVISIONS",
+                "members": [
+                    "BAGUETTE",
+                    "BRIE",
+                    "GRAPES",
+                    "THERMOS"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "CONFIDENT AND SELF-ASSURED",
+                "members": [
+                    "ASSURED",
+                    "BOLD",
+                    "CERTAIN",
+                    "SURE"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "CLASSICAL STRING QUARTET INSTRUMENTS",
+                "members": [
+                    "CELLO",
+                    "FIRST VIOLIN",
+                    "SECOND VIOLIN",
+                    "VIOLA"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "___ LANTERN",
+                "members": [
+                    "CHINESE",
+                    "GREEN",
+                    "JACK-O'",
+                    "PAPER"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 734,
+        "date": "2025-06-14",
+        "answers": [
+            {
+                "level": 0,
+                "group": "SHOE STYLES WITHOUT LACES",
+                "members": [
+                    "CLOG",
+                    "ESPADRILLE",
+                    "LOAFER",
+                    "MULE"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "SUDDENLY APPEAR",
+                "members": [
+                    "EMERGE",
+                    "LOOM",
+                    "MATERIALIZE",
+                    "SURFACE"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "FAMOUS VOLCANIC ISLANDS",
+                "members": [
+                    "ICELAND",
+                    "KRAKATOA",
+                    "SANTORINI",
+                    "SURTSEY"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "CROSS ___",
+                "members": [
+                    "COUNTRY",
+                    "EXAMINE",
+                    "ROADS",
+                    "WORD"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 735,
+        "date": "2025-06-15",
+        "answers": [
+            {
+                "level": 0,
+                "group": "WINTER SPORTS EQUIPMENT",
+                "members": [
+                    "BINDINGS",
+                    "POLES",
+                    "PUCK",
+                    "SKATES"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "INCREASE RAPIDLY",
+                "members": [
+                    "BALLOON",
+                    "MUSHROOM",
+                    "SKYROCKET",
+                    "SOAR"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "TYPES OF SEDIMENTARY ROCKS",
+                "members": [
+                    "CHALK",
+                    "LIMESTONE",
+                    "SANDSTONE",
+                    "SHALE"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "___ CABINET",
+                "members": [
+                    "CURIO",
+                    "FILING",
+                    "MEDICINE",
+                    "SHADOW"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 736,
+        "date": "2025-06-16",
+        "answers": [
+            {
+                "level": 0,
+                "group": "COFFEE SHOP PASTRY CASE",
+                "members": [
+                    "BISCOTTI",
+                    "CANNOLI",
+                    "ECLAIR",
+                    "MADELEINE"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "CAUSE TO BECOME CALM",
+                "members": [
+                    "APPEASE",
+                    "MOLLIFY",
+                    "PACIFY",
+                    "SOOTHE"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "FAMOUS EUROPEAN BRIDGES",
+                "members": [
+                    "CHARLES",
+                    "PONTE VECCHIO",
+                    "RIALTO",
+                    "TOWER"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "ANAGRAMS OF MUSICAL INSTRUMENTS",
+                "members": [
+                    "ABUT",
+                    "BULGE",
+                    "GROAN",
+                    "VOILA"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 737,
+        "date": "2025-06-17",
+        "answers": [
+            {
+                "level": 0,
+                "group": "HARDWARE PAINTING TOOLS",
+                "members": [
+                    "DROP CLOTH",
+                    "PRIMER",
+                    "ROLLER",
+                    "TRAY"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "SPEAK UNCLEARLY",
+                "members": [
+                    "GARBLE",
+                    "JUMBLE",
+                    "MANGLE",
+                    "SLUR"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "NOBEL PRIZE CATEGORIES",
+                "members": [
+                    "CHEMISTRY",
+                    "LITERATURE",
+                    "PEACE",
+                    "PHYSICS"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "___ CANNON",
+                "members": [
+                    "GLASS",
+                    "HAND",
+                    "LOOSE",
+                    "WATER"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 738,
+        "date": "2025-06-18",
+        "answers": [
+            {
+                "level": 0,
+                "group": "TREE NUTS IN A MIXED TIN",
+                "members": [
+                    "BRAZIL NUT",
+                    "HAZELNUT",
+                    "MACADAMIA",
+                    "PISTACHIO"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "MOVE GRACEFULLY",
+                "members": [
+                    "GLIDE",
+                    "SKIM",
+                    "SWOOP",
+                    "WALTZ"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "FAMOUS JAPANESE CASTLES",
+                "members": [
+                    "HIMEJI",
+                    "KUMAMOTO",
+                    "MATSUMOTO",
+                    "OSAKA"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "WORDS SPELLED ENTIRELY WITH ROMAN NUMERALS",
+                "members": [
+                    "CIVIL",
+                    "LIVID",
+                    "MIMIC",
+                    "VIVID"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 739,
+        "date": "2025-06-19",
+        "answers": [
+            {
+                "level": 0,
+                "group": "MAILROOM PACKAGING SUPPLIES",
+                "members": [
+                    "BUBBLE WRAP",
+                    "CARTON",
+                    "LABEL",
+                    "PACKING TAPE"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "FULL OF ENERGY AND SPIRIT",
+                "members": [
+                    "FEISTY",
+                    "PLUCKY",
+                    "SPRY",
+                    "SPUNKY"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "WORLD HERITAGE ANCIENT CITIES",
+                "members": [
+                    "MACHU PICCHU",
+                    "PALMYRA",
+                    "PETRA",
+                    "POMPEII"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "___ POCKET",
+                "members": [
+                    "AIR",
+                    "BREAST",
+                    "HOT",
+                    "PICK"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 740,
+        "date": "2025-06-20",
+        "answers": [
+            {
+                "level": 0,
+                "group": "BREAKFAST PANCAKE TOPPINGS",
+                "members": [
+                    "BLUEBERRIES",
+                    "BUTTER",
+                    "MAPLE SYRUP",
+                    "PECAN PRALINE"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "HOLD BACK OR RESTRAIN",
+                "members": [
+                    "BRIDLE",
+                    "CHECK",
+                    "CURB",
+                    "REIN"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "PARTS OF THE HUMAN EYE",
+                "members": [
+                    "CORNEA",
+                    "IRIS",
+                    "RETINA",
+                    "SCLERA"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "BLINDING ___",
+                "members": [
+                    "FLASH",
+                    "LIGHT",
+                    "RAGE",
+                    "SPEED"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 741,
+        "date": "2025-06-21",
+        "answers": [
+            {
+                "level": 0,
+                "group": "CAMPGROUND PICNIC ITEMS",
+                "members": [
+                    "BUG SPRAY",
+                    "FOLDING CHAIR",
+                    "ICE PACK",
+                    "PAPER PLATES"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "EXTREMELY CLEAR AND BRIGHT",
+                "members": [
+                    "LIMPID",
+                    "LUCID",
+                    "PELLUCID",
+                    "RADIANT"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "FAMOUS WATERFALLS OF THE WORLD",
+                "members": [
+                    "ANGEL",
+                    "IGUAZU",
+                    "NIAGARA",
+                    "VICTORIA"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "___ SHIELD",
+                "members": [
+                    "FACE",
+                    "HEAT",
+                    "HUMAN",
+                    "WIND"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 742,
+        "date": "2025-06-22",
+        "answers": [
+            {
+                "level": 0,
+                "group": "SEWING GARMENT CLOSURES",
+                "members": [
+                    "BUTTON",
+                    "CLASP",
+                    "HOOK AND EYE",
+                    "SNAP"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "MOVE SECRETLY",
+                "members": [
+                    "CREEP",
+                    "PROWL",
+                    "SKULK",
+                    "SLINK"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "CLASSICAL BALLET POSITIONS AND MOVES",
+                "members": [
+                    "ARABESQUE",
+                    "JETE",
+                    "PIROUETTE",
+                    "PLIE"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "WORDS ENDING IN A BEVERAGE",
+                "members": [
+                    "DECIDER",
+                    "MARGIN",
+                    "SERUM",
+                    "WHALE"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 743,
+        "date": "2025-06-23",
+        "answers": [
+            {
+                "level": 0,
+                "group": "COFFEE GRINDING AND SERVING ITEMS",
+                "members": [
+                    "BURR GRINDER",
+                    "CARAFE",
+                    "FILTER PAPER",
+                    "TAMPER"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "STRONGLY DISAPPROVE OF",
+                "members": [
+                    "CONDEMN",
+                    "DECRY",
+                    "DENOUNCE",
+                    "DEPLORE"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "FAMOUS SCIENTISTS OF PHYSICS",
+                "members": [
+                    "BOHR",
+                    "CURIE",
+                    "FEYNMAN",
+                    "MAXWELL"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "___ HAMMER",
+                "members": [
+                    "CLAW",
+                    "JACK",
+                    "SLEDGE",
+                    "WAR"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 744,
+        "date": "2025-06-24",
+        "answers": [
+            {
+                "level": 0,
+                "group": "CHESS PIECE NAMES",
+                "members": [
+                    "BISHOP",
+                    "KNIGHT",
+                    "PAWN",
+                    "ROOK"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "SPEAK WITH PRIDE",
+                "members": [
+                    "BRAG",
+                    "PREEN",
+                    "STRUT",
+                    "VAUNT"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "SEMI-PRECIOUS MINERALS",
+                "members": [
+                    "AMETHYST",
+                    "CITRINE",
+                    "GARNET",
+                    "PERIDOT"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "STARTING WITH A COLOR",
+                "members": [
+                    "BLACKSMITH",
+                    "BLUEPRINT",
+                    "GREENHOUSE",
+                    "REDWOOD"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 745,
+        "date": "2025-06-25",
+        "answers": [
+            {
+                "level": 0,
+                "group": "WINTER ROAD CLEARING TOOLS",
+                "members": [
+                    "ICE SCRAPER",
+                    "ROCK SALT",
+                    "SAND",
+                    "SNOW SHOVEL"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "SUDDENLY SHRINK BACK",
+                "members": [
+                    "CRINGE",
+                    "FLINCH",
+                    "RECOIL",
+                    "WINCE"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "ANCIENT CIVILIZATIONS OF THE AMERICAS",
+                "members": [
+                    "AZTEC",
+                    "INCA",
+                    "MAYA",
+                    "OLMEC"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "___ VALVE",
+                "members": [
+                    "CHECK",
+                    "HEART",
+                    "RELIEF",
+                    "SAFETY"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 746,
+        "date": "2025-06-26",
+        "answers": [
+            {
+                "level": 0,
+                "group": "HOME WORKSHOP CLAMPS AND VISES",
+                "members": [
+                    "BAR CLAMP",
+                    "BENCH VISE",
+                    "C-CLAMP",
+                    "SPRING CLAMP"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "GIVE A BRIEF SUMMARY",
+                "members": [
+                    "DIGEST",
+                    "OUTLINE",
+                    "RECAP",
+                    "RUNDOWN"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "FAMOUS ART MUSEUMS",
+                "members": [
+                    "HERMITAGE",
+                    "LOUVRE",
+                    "PRADO",
+                    "UFFIZI"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "WORDS THAT CAN FOLLOW 'TIME'",
+                "members": [
+                    "CAPSULE",
+                    "KEEPER",
+                    "LINE",
+                    "PIECE"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 747,
+        "date": "2025-06-27",
+        "answers": [
+            {
+                "level": 0,
+                "group": "SALAD BAR CRISP VEGGIES",
+                "members": [
+                    "CELERY",
+                    "CUCUMBER",
+                    "JICAMA",
+                    "RADISH"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "TINY MEASURE OR QUANTITY",
+                "members": [
+                    "DAB",
+                    "IOTA",
+                    "MITE",
+                    "SMIDGEN"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "MOUNTAIN PEAKS OVER 8000 METERS",
+                "members": [
+                    "ANNAPURNA",
+                    "EVEREST",
+                    "K2",
+                    "LHOTSE"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "___ SIGNAL",
+                "members": [
+                    "BAT",
+                    "DISTRESS",
+                    "SMOKE",
+                    "TURN"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 748,
+        "date": "2025-06-28",
+        "answers": [
+            {
+                "level": 0,
+                "group": "BAKER'S DECORATING TOOLS",
+                "members": [
+                    "OFFSET SPATULA",
+                    "PASTRY BAG",
+                    "PIPING TIP",
+                    "TURNTABLE"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "EXCEEDINGLY GENEROUS",
+                "members": [
+                    "BOUNTIFUL",
+                    "LIBERAL",
+                    "MAGNANIMOUS",
+                    "MUNIFICENT"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "MAJOR WORLD ARCHIPELAGOS",
+                "members": [
+                    "AZORES",
+                    "GALAPAGOS",
+                    "MALDIVES",
+                    "SEYCHELLES"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "HOMOPHONES OF WEATHER TERMS",
+                "members": [
+                    "HALE",
+                    "MISSED",
+                    "REIGN",
+                    "SON"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 749,
+        "date": "2025-06-29",
+        "answers": [
+            {
+                "level": 0,
+                "group": "CANOEING PADDLE GEAR",
+                "members": [
+                    "DRY BAG",
+                    "LIFE JACKET",
+                    "PADDLE",
+                    "THWART"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "ACT WITHOUT THINKING",
+                "members": [
+                    "BRASH",
+                    "HASTY",
+                    "IMPULSIVE",
+                    "RASH"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "AUXILIARY WOODWIND INSTRUMENTS",
+                "members": [
+                    "CONTRABASSOON",
+                    "ENGLISH HORN",
+                    "PICCOLO",
+                    "SAXOPHONE"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "___ CORD",
+                "members": [
+                    "BUNGEE",
+                    "POWER",
+                    "RIP",
+                    "VOCAL"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 750,
+        "date": "2025-06-30",
+        "answers": [
+            {
+                "level": 0,
+                "group": "TEA CEREMONY UTENSILS",
+                "members": [
+                    "INFUSER",
+                    "KETTLE",
+                    "STRAINER",
+                    "WHISK"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "MAKE A SHARP NOISE",
+                "members": [
+                    "CLACK",
+                    "CLICK",
+                    "PING",
+                    "TWANG"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "TYPES OF ARCHITECTURAL ARCHES",
+                "members": [
+                    "HORSESHOE",
+                    "LANCET",
+                    "OGEE",
+                    "TREFOIL"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "WORDS HIDING A BIRD",
+                "members": [
+                    "CROWBAR",
+                    "DOVETAIL",
+                    "GULLIBLE",
+                    "SWANK"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 751,
+        "date": "2025-07-01",
+        "answers": [
+            {
+                "level": 0,
+                "group": "PLAYGROUND STRUCTURES",
+                "members": [
+                    "CLIMBING DOME",
+                    "MONKEY BARS",
+                    "SEESAW",
+                    "SLIDE"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "REFUSE TO OBEY",
+                "members": [
+                    "BUCK",
+                    "DEFY",
+                    "FLOUT",
+                    "RESIST"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "FAMOUS OPERAS BY TITLE",
+                "members": [
+                    "AIDA",
+                    "CARMEN",
+                    "TOSCA",
+                    "TURANDOT"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "___ FEVER",
+                "members": [
+                    "CABIN",
+                    "GOLD",
+                    "HAY",
+                    "SPRING"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 752,
+        "date": "2025-07-02",
+        "answers": [
+            {
+                "level": 0,
+                "group": "CAR DASHBOARD GAUGES",
+                "members": [
+                    "FUEL GAUGE",
+                    "ODOMETER",
+                    "SPEEDOMETER",
+                    "TACHOMETER"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "FILLED WITH EXCITEMENT",
+                "members": [
+                    "AGOG",
+                    "EAGER",
+                    "THRILLED",
+                    "WIRED"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "MAJOR WORLD PLATEAUS",
+                "members": [
+                    "ANATOLIAN",
+                    "COLORADO",
+                    "DECCAN",
+                    "TIBETAN"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "WORDS THAT DROP LAST LETTER TO BECOME CLOTHING",
+                "members": [
+                    "BOOTH",
+                    "CAPER",
+                    "HATE",
+                    "SUITE"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 753,
+        "date": "2025-07-03",
+        "answers": [
+            {
+                "level": 0,
+                "group": "KITCHEN KNIFE TYPES",
+                "members": [
+                    "CLEAVER",
+                    "PARING",
+                    "SANTOKU",
+                    "SERRATED"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "UNUSUALLY QUIET",
+                "members": [
+                    "HUSHED",
+                    "MUTED",
+                    "STILL",
+                    "SUBDUED"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "FAMOUS ROMANTIC POETS",
+                "members": [
+                    "BYRON",
+                    "KEATS",
+                    "SHELLEY",
+                    "WORDSWORTH"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "___ TRACK",
+                "members": [
+                    "FAST",
+                    "LAUGH",
+                    "RACE",
+                    "SOUND"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 754,
+        "date": "2025-07-04",
+        "answers": [
+            {
+                "level": 0,
+                "group": "HOME OFFICE ERGONOMICS",
+                "members": [
+                    "FOOTREST",
+                    "LUMBAR PILLOW",
+                    "MONITOR STAND",
+                    "WRIST REST"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "PUSH FORWARD WITH FORCE",
+                "members": [
+                    "DRIVE",
+                    "PROPEL",
+                    "SHOVE",
+                    "THRUST"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "PARTS OF A CELL ORGANELLES",
+                "members": [
+                    "GOLGI",
+                    "LYSOSOME",
+                    "MITOCHONDRION",
+                    "RIBOSOME"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "SALT ___",
+                "members": [
+                    "FLAT",
+                    "LICK",
+                    "MINE",
+                    "WATER"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 755,
+        "date": "2025-07-05",
+        "answers": [
+            {
+                "level": 0,
+                "group": "FRUIT ORCHARD BERRIES",
+                "members": [
+                    "BLACKBERRY",
+                    "BOYSENBERRY",
+                    "GOOSEBERRY",
+                    "RASPBERRY"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "EASILY FOOLED",
+                "members": [
+                    "CREDULOUS",
+                    "GULLIBLE",
+                    "NAIVE",
+                    "TRUSTING"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "FAMOUS COMPOSERS OF BAROQUE MUSIC",
+                "members": [
+                    "BACH",
+                    "HANDEL",
+                    "PURCELL",
+                    "VIVALDI"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "___ PROOFING",
+                "members": [
+                    "CHILD",
+                    "FUTURE",
+                    "SOUND",
+                    "WEATHER"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 756,
+        "date": "2025-07-06",
+        "answers": [
+            {
+                "level": 0,
+                "group": "FISHING TACKLE BOX ITEMS",
+                "members": [
+                    "BOBBER",
+                    "LURE",
+                    "SINKER",
+                    "SWIVEL"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "SEARCH THOROUGHLY",
+                "members": [
+                    "COMB",
+                    "RANSACK",
+                    "RUMMAGE",
+                    "SCOUR"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "FAMOUS DESERT OASES AND VALLEYS",
+                "members": [
+                    "DEATH VALLEY",
+                    "HUACACHINA",
+                    "SIWA",
+                    "WADI RUM"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "ANAGRAMS OF KITCHEN FOODS",
+                "members": [
+                    "AMONG",
+                    "BEARD",
+                    "GABLE",
+                    "STAKE"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 757,
+        "date": "2025-07-07",
+        "answers": [
+            {
+                "level": 0,
+                "group": "LAWN CARE EQUIPMENT",
+                "members": [
+                    "EDGER",
+                    "LEAF BLOWER",
+                    "MOWER",
+                    "SPRINKLER"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "MAKE A SUDDEN LOUD SOUND",
+                "members": [
+                    "BANG",
+                    "CLAP",
+                    "CRACK",
+                    "PEAL"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "CLASSICAL MYTHOLOGICAL MONSTERS",
+                "members": [
+                    "CHIMERA",
+                    "HYDRA",
+                    "MEDUSA",
+                    "MINOTAUR"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "___ STORM",
+                "members": [
+                    "BRAIN",
+                    "DUST",
+                    "FIRE",
+                    "ICE"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 758,
+        "date": "2025-07-08",
+        "answers": [
+            {
+                "level": 0,
+                "group": "BOOKBINDING PAPER FORMATS",
+                "members": [
+                    "FOLIO",
+                    "OCTAVO",
+                    "QUARTO",
+                    "SIGNATURE"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "SHOW RELUCTANCE",
+                "members": [
+                    "DEMUR",
+                    "HESITATE",
+                    "SHRINK",
+                    "WAVER"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "MAJOR WORLD CANALS",
+                "members": [
+                    "CORINTH",
+                    "ERIE",
+                    "PANAMA",
+                    "SUEZ"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "WORDS ENDING IN A MUSICAL INSTRUMENT",
+                "members": [
+                    "CONUNDRUM",
+                    "DILUTE",
+                    "SHARP",
+                    "THORN"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 759,
+        "date": "2025-07-09",
+        "answers": [
+            {
+                "level": 0,
+                "group": "DELI SANDWICH CONDIMENTS",
+                "members": [
+                    "AIOLI",
+                    "HORSERADISH",
+                    "MUSTARD",
+                    "RELISH"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "EXTREMELY SKILLFUL",
+                "members": [
+                    "ADEPT",
+                    "DEFT",
+                    "DEXTROUS",
+                    "NIMBLE"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "FAMOUS LITERARY DETECTIVES",
+                "members": [
+                    "DUPIN",
+                    "HOLMES",
+                    "MARPLE",
+                    "POIROT"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "___ CHAMBER",
+                "members": [
+                    "ECHO",
+                    "GAS",
+                    "PRESSURE",
+                    "STAR"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 760,
+        "date": "2025-07-10",
+        "answers": [
+            {
+                "level": 0,
+                "group": "HARDWARE ELECTRICAL SUPPLIES",
+                "members": [
+                    "BREAKER",
+                    "CONDUIT",
+                    "OUTLET",
+                    "WIRE NUT"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "ACT WITH GREAT SPEED",
+                "members": [
+                    "BOLT",
+                    "HASTEN",
+                    "HURTLE",
+                    "STREAK"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "TYPES OF VOLCANIC CONES AND FEATURES",
+                "members": [
+                    "CALDERA",
+                    "CINDER CONE",
+                    "FUMAROLE",
+                    "GEYSER"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "DOUBLE-LETTER PALINDROMES",
+                "members": [
+                    "DEED",
+                    "NOON",
+                    "PEEP",
+                    "TOOT"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 761,
+        "date": "2025-07-11",
+        "answers": [
+            {
+                "level": 0,
+                "group": "SUSHI BAR ACCOMPANIMENTS",
+                "members": [
+                    "EDAMAME",
+                    "PICKLED GINGER",
+                    "SOY SAUCE",
+                    "WASABI"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "EXPRESS STRONG EXCITEMENT",
+                "members": [
+                    "CHEER",
+                    "EXULT",
+                    "JUBILATE",
+                    "REJOICE"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "FAMOUS SCIENTISTS OF BIOLOGY",
+                "members": [
+                    "DARWIN",
+                    "FRANKLIN",
+                    "MENDEL",
+                    "PASTEUR"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "___ GLASSES",
+                "members": [
+                    "OPERA",
+                    "READING",
+                    "ROSE-COLORED",
+                    "SUN"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 762,
+        "date": "2025-07-12",
+        "answers": [
+            {
+                "level": 0,
+                "group": "BICYCLE SAFETY GEAR",
+                "members": [
+                    "BELL",
+                    "HELMET",
+                    "REFLECTOR",
+                    "TAILLIGHT"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "DISRUPT PEACE OR ORDER",
+                "members": [
+                    "AGITATE",
+                    "PERTURB",
+                    "ROIL",
+                    "UNSETTLE"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "WORLD CAPITALS ON ISLANDS",
+                "members": [
+                    "HAVANA",
+                    "MANILA",
+                    "REYKJAVIK",
+                    "TOKYO"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "___ KEY",
+                "members": [
+                    "CHURCH",
+                    "LOW",
+                    "MASTER",
+                    "SKELETON"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 763,
+        "date": "2025-07-13",
+        "answers": [
+            {
+                "level": 0,
+                "group": "CANDLE MAKING SUPPLIES",
+                "members": [
+                    "BEESWAX",
+                    "FRAGRANCE OIL",
+                    "MOLD",
+                    "WICK TAB"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "VERY BRIEF IN DURATION",
+                "members": [
+                    "EPHEMERAL",
+                    "FLEETING",
+                    "FUGACIOUS",
+                    "TRANSIENT"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "FAMOUS ANCIENT PHILOSOPHERS",
+                "members": [
+                    "ARISTOTLE",
+                    "EPICURUS",
+                    "PLATO",
+                    "SOCRATES"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "___ CIRCLE",
+                "members": [
+                    "ARCTIC",
+                    "CROP",
+                    "INNER",
+                    "TRAFFIC"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 764,
+        "date": "2025-07-14",
+        "answers": [
+            {
+                "level": 0,
+                "group": "ART MUSEUM FRAMING PARTS",
+                "members": [
+                    "BACKING",
+                    "BEVEL",
+                    "MAT BOARD",
+                    "RABBET"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "MAKE A GENTLE SOUND",
+                "members": [
+                    "CHIME",
+                    "HUM",
+                    "LULL",
+                    "PURR"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "FAMOUS ASTRONOMERS IN HISTORY",
+                "members": [
+                    "COPERNICUS",
+                    "GALILEI",
+                    "HUBBLE",
+                    "TYCHO"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "___ RING",
+                "members": [
+                    "BOXING",
+                    "KEY",
+                    "MOOD",
+                    "ONION"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 765,
+        "date": "2025-07-15",
+        "answers": [
+            {
+                "level": 0,
+                "group": "TRAVEL PACKING ORGANIZERS",
+                "members": [
+                    "CABLE POUCH",
+                    "GARMENT BAG",
+                    "PACKING CUBE",
+                    "TOILETRY KIT"
+                ]
+            },
+            {
+                "level": 1,
+                "group": "APPROACH GRADUALLY",
+                "members": [
+                    "CONVERGE",
+                    "INCH",
+                    "NEAR",
+                    "VERGE"
+                ]
+            },
+            {
+                "level": 2,
+                "group": "GREAT EUROPEAN RIVERS",
+                "members": [
+                    "ELBE",
+                    "LOIRE",
+                    "RHINE",
+                    "RHONE"
+                ]
+            },
+            {
+                "level": 3,
+                "group": "___ CASTLE",
+                "members": [
+                    "BOUNCY",
+                    "NEW",
+                    "SAND",
+                    "WHITE"
+                ]
+            }
+        ]
     }
 ]

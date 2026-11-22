@@ -3,12 +3,14 @@ This is a clone of the New York Times Connections word game. The game challenges
 
 ## Features
 - Interactive gameplay with a visually appealing UI.
+- English (`/`) and Hebrew (`/he`) editions with full RTL layout and an in-header language toggle.
 - Light and dark theme toggle for better accessibility.
 - Date selector to play puzzles from different days.
 - Fully responsive design for desktop and mobile devices.
 
 ## Play Online
-You can play the game online at: [https://connections.tomer.dev](https://connections.tomer.dev)
+- English: [https://connections.tomer.dev](https://connections.tomer.dev)
+- Hebrew (עברית): [https://connections.tomer.dev/he](https://connections.tomer.dev/he)
 
 
 ## Getting Started
