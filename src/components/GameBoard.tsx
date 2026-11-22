@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import WordTile from './WordTile';
 import GroupDisplay from './GroupDisplay';
 import ColorKey from './ColorKey';
@@ -10,8 +10,13 @@ interface GameBoardProps {
   onNewGame: () => void;
 }
 
+const getShuffledWords = (puzzle: ConnectionPuzzle | null): string[] => {
+  if (!puzzle) return [];
+  return shuffleArray(puzzle.answers.flatMap(group => group.members));
+};
+
 const GameBoard: React.FC<GameBoardProps> = ({ puzzle, onNewGame }) => {
-  const [words, setWords] = useState<string[]>([]);
+  const [words] = useState<string[]>(() => getShuffledWords(puzzle));
   const [gameState, setGameState] = useState<GameState>({
     selectedWords: [],
     solvedGroups: [],
@@ -19,24 +24,6 @@ const GameBoard: React.FC<GameBoardProps> = ({ puzzle, onNewGame }) => {
     gameStatus: 'playing',
   });
   const [showError, setShowError] = useState(false);
-
-  // Reset the game when a new puzzle is loaded
-  useEffect(() => {
-    if (puzzle) {
-      const allWords: string[] = [];
-      puzzle.answers.forEach(group => {
-        allWords.push(...group.members);
-      });
-      setWords(shuffleArray(allWords));
-      setGameState({
-        selectedWords: [],
-        solvedGroups: [],
-        mistakes: 0,
-        gameStatus: 'playing',
-      });
-      setShowError(false);
-    }
-  }, [puzzle]);
 
   const handleWordClick = (word: string) => {
     if (gameState.gameStatus !== 'playing') return;

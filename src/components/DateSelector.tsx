@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useMemo } from 'react';
 import { getAllDates } from '@/utils/connectionUtils';
 
 interface DateSelectorProps {
@@ -7,12 +7,8 @@ interface DateSelectorProps {
 }
 
 const DateSelector: React.FC<DateSelectorProps> = ({ selectedDate, onDateChange }) => {
-  const [dates, setDates] = useState<string[]>([]);
+  const dates = useMemo(() => getAllDates(), []);
   const [isOpen, setIsOpen] = useState(false);
-
-  useEffect(() => {
-    setDates(getAllDates());
-  }, []);
 
   const formatDate = (dateString: string): string => {
     const date = new Date(dateString);

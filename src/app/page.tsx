@@ -1,44 +1,31 @@
 "use client";
-import { useState, useEffect } from 'react';
+import { useState, useSyncExternalStore } from 'react';
 import { getConnectionsByDate, getAllDates, getClosestAvailableDate } from '@/utils/connectionUtils';
-import { ConnectionPuzzle } from '@/types';
 import GameBoard from '@/components/GameBoard';
 import DateSelector from '@/components/DateSelector';
 import ThemeToggle from '@/components/ThemeToggle';
 import { useTheme } from '@/context/ThemeContext';
 
+const emptySubscribe = () => () => {};
+
+const getInitialDate = (): string => {
+  const dates = getAllDates();
+  if (dates.length === 0) return '';
+  const today = new Date().toISOString().split('T')[0]; // Format: YYYY-MM-DD
+  return getClosestAvailableDate(today);
+};
+
 export default function Home() {
-  const [selectedDate, setSelectedDate] = useState<string>('');
-  const [currentPuzzle, setCurrentPuzzle] = useState<ConnectionPuzzle | null>(null);
-  const [isLoading, setIsLoading] = useState(true);
+  const initialDate = useSyncExternalStore(emptySubscribe, getInitialDate, () => '');
+  const [userSelectedDate, setUserSelectedDate] = useState<string | null>(null);
   const { resolvedTheme, toggleTheme } = useTheme();
 
-  // Initialize with the most recent date on first load
-  useEffect(() => {
-    const fetchInitialData = async () => {
-      const dates = getAllDates();
-      if (dates.length > 0) {
-        const today = new Date().toISOString().split('T')[0]; // Format: YYYY-MM-DD
-        const closestDate = getClosestAvailableDate(today);
-        setSelectedDate(closestDate);
-        loadPuzzleForDate(closestDate);
-      }
-      setIsLoading(false);
-    };
-
-    fetchInitialData();
-  }, []);
-
-  const loadPuzzleForDate = async (date: string) => {
-    setIsLoading(true);
-    const puzzle = getConnectionsByDate(date);
-    setCurrentPuzzle(puzzle || null);
-    setIsLoading(false);
-  };
+  const selectedDate = userSelectedDate ?? initialDate;
+  const currentPuzzle = selectedDate ? (getConnectionsByDate(selectedDate) ?? null) : null;
+  const isLoading = !selectedDate;
 
   const handleDateChange = (date: string) => {
-    setSelectedDate(date);
-    loadPuzzleForDate(date);
+    setUserSelectedDate(date);
   };
 
   return (
@@ -69,6 +56,7 @@ export default function Home() {
           </div>
         ) : (
           <GameBoard 
+            key={currentPuzzle?.id ?? 'empty'}
             puzzle={currentPuzzle} 
             onNewGame={() => {
               const dates = getAllDates();
