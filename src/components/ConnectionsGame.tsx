@@ -1,13 +1,13 @@
 "use client";
 
-import { useState, useSyncExternalStore } from 'react';
+import { useMemo, useState, useSyncExternalStore } from 'react';
 import {
   getAllDates,
   getClosestAvailableDate,
   getConnectionsByDate,
   getLocalTodayIsoDate,
 } from '@/utils/connectionUtils';
-import type { Locale } from '@/types';
+import type { ConnectionPuzzle, Locale } from '@/types';
 import { getTranslations } from '@/i18n/translations';
 import GameBoard from '@/components/GameBoard';
 import DateSelector from '@/components/DateSelector';
@@ -17,28 +17,24 @@ import { useTheme } from '@/context/ThemeContext';
 
 const emptySubscribe = () => () => {};
 
-const getInitialDateForLocale = (locale: Locale): string => {
-  const dates = getAllDates(locale);
-  if (dates.length === 0) return '';
-  return getClosestAvailableDate(getLocalTodayIsoDate(), locale);
-};
-
 interface ConnectionsGameProps {
   locale: Locale;
+  puzzles: ConnectionPuzzle[];
 }
 
-export default function ConnectionsGame({ locale }: ConnectionsGameProps) {
+export default function ConnectionsGame({ locale, puzzles }: ConnectionsGameProps) {
   const copy = getTranslations(locale);
+  const dates = useMemo(() => getAllDates(puzzles), [puzzles]);
   const initialDate = useSyncExternalStore(
     emptySubscribe,
-    () => getInitialDateForLocale(locale),
+    () => (dates.length > 0 ? getClosestAvailableDate(puzzles, getLocalTodayIsoDate()) : ''),
     () => ''
   );
   const [userSelectedDate, setUserSelectedDate] = useState<string | null>(null);
   const { resolvedTheme, toggleTheme } = useTheme();
 
   const selectedDate = userSelectedDate ?? initialDate;
-  const currentPuzzle = selectedDate ? (getConnectionsByDate(selectedDate, locale) ?? null) : null;
+  const currentPuzzle = selectedDate ? (getConnectionsByDate(puzzles, selectedDate) ?? null) : null;
   const isLoading = !selectedDate;
 
   const handleDateChange = (date: string) => {
@@ -64,6 +60,7 @@ export default function ConnectionsGame({ locale }: ConnectionsGameProps) {
             {selectedDate && (
               <DateSelector
                 locale={locale}
+                dates={dates}
                 selectedDate={selectedDate}
                 onDateChange={handleDateChange}
               />
@@ -81,7 +78,6 @@ export default function ConnectionsGame({ locale }: ConnectionsGameProps) {
             locale={locale}
             puzzle={currentPuzzle}
             onNewGame={() => {
-              const dates = getAllDates(locale);
               if (dates.length > 0) {
                 let randomDate = selectedDate;
                 if (dates.length > 1) {

@@ -26,7 +26,7 @@ export const GROUP_COLORS: Record<number, { bg: string; text: string }> = {
   },
   1: {
     bg: '#7CAD3A',  // Green
-    text: '#FFFFFF',
+    text: '#000000',
   },
   2: {
     bg: '#4575B4',  // Blue

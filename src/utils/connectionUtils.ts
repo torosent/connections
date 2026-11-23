@@ -1,35 +1,21 @@
 import { ConnectionPuzzle, Locale } from "../types";
-import connectionsDataEn from "../data/connections.json";
-import connectionsDataHe from "../data/connections-he.json";
-
-const DATA_BY_LOCALE: Record<Locale, ConnectionPuzzle[]> = {
-  en: connectionsDataEn as ConnectionPuzzle[],
-  he: connectionsDataHe as ConnectionPuzzle[],
-};
-
-export const loadConnectionsData = (locale: Locale = "en"): ConnectionPuzzle[] => {
-  return DATA_BY_LOCALE[locale];
-};
 
 export const getConnectionsByDate = (
-  date: string,
-  locale: Locale = "en"
+  puzzles: ConnectionPuzzle[],
+  date: string
 ): ConnectionPuzzle | undefined => {
-  const connections = loadConnectionsData(locale);
-  return connections.find(connection => connection.date === date);
+  return puzzles.find(connection => connection.date === date);
 };
 
 export const getConnectionById = (
-  id: number,
-  locale: Locale = "en"
+  puzzles: ConnectionPuzzle[],
+  id: number
 ): ConnectionPuzzle | undefined => {
-  const connections = loadConnectionsData(locale);
-  return connections.find(connection => connection.id === id);
+  return puzzles.find(connection => connection.id === id);
 };
 
-export const getAllDates = (locale: Locale = "en"): string[] => {
-  const connections = loadConnectionsData(locale);
-  return connections
+export const getAllDates = (puzzles: ConnectionPuzzle[]): string[] => {
+  return puzzles
     .map(connection => connection.date)
     .sort((a, b) => a.localeCompare(b));
 };
@@ -56,8 +42,8 @@ export const formatPuzzleDate = (dateString: string, locale: Locale = "en"): str
   });
 };
 
-export const getTodaysPuzzle = (locale: Locale = "en"): ConnectionPuzzle | undefined => {
-  return getConnectionsByDate(getLocalTodayIsoDate(), locale);
+export const getTodaysPuzzle = (puzzles: ConnectionPuzzle[]): ConnectionPuzzle | undefined => {
+  return getConnectionsByDate(puzzles, getLocalTodayIsoDate());
 };
 
 export const shuffleArray = <T>(array: T[]): T[] => {
@@ -70,10 +56,10 @@ export const shuffleArray = <T>(array: T[]): T[] => {
 };
 
 export const getClosestAvailableDate = (
-  targetDate: string,
-  locale: Locale = "en"
+  puzzles: ConnectionPuzzle[],
+  targetDate: string
 ): string => {
-  const dates = getAllDates(locale);
+  const dates = getAllDates(puzzles);
   if (dates.length === 0) return "";
   if (dates.includes(targetDate)) return targetDate;
 

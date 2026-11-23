@@ -21,7 +21,7 @@ Follow these steps to run the project locally:
 
 Ensure you have the following installed on your system:
 
-- [Node.js](https://nodejs.org/) (v18 or later recommended)
+- [Node.js](https://nodejs.org/) (v20.9 or later recommended)
 - npm, yarn, pnpm, or bun (any package manager of your choice)
 
 ### Installation

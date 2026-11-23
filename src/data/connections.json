@@ -30319,42 +30319,42 @@
         "answers": [
             {
                 "level": 0,
-                "group": "CURRENCY SYMBOLS",
+                "group": "ARTISAN BREAD LOAVES",
                 "members": [
-                    "",
-                    "",
-                    "",
-                    ""
+                    "CHALLAH",
+                    "CIABATTA",
+                    "FOCACCIA",
+                    "PUMPERNICKEL"
                 ]
             },
             {
                 "level": 1,
-                "group": "AND/TOGETHER WITH",
+                "group": "BOOKBINDING PARTS",
                 "members": [
-                    "",
-                    "",
-                    "",
-                    ""
+                    "ENDPAPER",
+                    "GUTTER",
+                    "HEADBAND",
+                    "SPINE"
                 ]
             },
             {
                 "level": 2,
-                "group": "EMOTICON MOUTHS",
+                "group": "POETIC METERS",
                 "members": [
-                    "",
-                    "",
-                    "",
-                    ""
+                    "ANAPEST",
+                    "DACTYL",
+                    "IAMB",
+                    "TROCHEE"
                 ]
             },
             {
                 "level": 3,
-                "group": "\"RIGHT\"",
+                "group": "___ DRIFT",
                 "members": [
-                    "",
-                    "",
-                    "",
-                    ""
+                    "CONTINENTAL",
+                    "GENETIC",
+                    "MISSION",
+                    "SNOW"
                 ]
             }
         ]
@@ -30687,7 +30687,7 @@
         "answers": [
             {
                 "level": 0,
-                "group": "PARTS OF A BICYCLE FRAME",
+                "group": "PARTS OF A BICYCLE",
                 "members": [
                     "FORK",
                     "HANDLEBAR",
@@ -31239,7 +31239,7 @@
         "answers": [
             {
                 "level": 0,
-                "group": "SAILBOAT RIGGING COMPONENTS",
+                "group": "SAILBOAT PARTS",
                 "members": [
                     "BOOM",
                     "HALYARD",
@@ -32041,7 +32041,7 @@
             },
             {
                 "level": 2,
-                "group": "BLOOD CELL COMPONENTS",
+                "group": "BLOOD COMPONENTS",
                 "members": [
                     "LEUKOCYTE",
                     "PLASMA",
@@ -32191,8 +32191,8 @@
                 "level": 3,
                 "group": "VELVET ___",
                 "members": [
-                    "CRUSHED",
                     "GLOVE",
+                    "REVOLUTION",
                     "ROPE",
                     "UNDERGROUND"
                 ]
@@ -32859,11 +32859,11 @@
             },
             {
                 "level": 1,
-                "group": "LOOK AT WITH ADMIRATION",
+                "group": "LOOK AT",
                 "members": [
                     "BEHOLD",
                     "GAZE",
-                    "MARVEL",
+                    "OBSERVE",
                     "REGARD"
                 ]
             },
@@ -33252,7 +33252,7 @@
                     "CHOCOLATE",
                     "DRINKING",
                     "SODA",
-                    "YOUTH"
+                    "WATER"
                 ]
             }
         ]
@@ -33687,7 +33687,7 @@
             },
             {
                 "level": 1,
-                "group": "CONFIDENT AND SELF-ASSURED",
+                "group": "SELF-CONFIDENT",
                 "members": [
                     "ASSURED",
                     "BOLD",
@@ -34413,7 +34413,7 @@
         "answers": [
             {
                 "level": 0,
-                "group": "CANOEING PADDLE GEAR",
+                "group": "CANOEING GEAR",
                 "members": [
                     "DRY BAG",
                     "LIFE JACKET",
@@ -34423,7 +34423,7 @@
             },
             {
                 "level": 1,
-                "group": "ACT WITHOUT THINKING",
+                "group": "ACTING WITHOUT THINKING",
                 "members": [
                     "BRASH",
                     "HASTY",

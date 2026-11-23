@@ -36,8 +36,9 @@ const WordTile: React.FC<WordTileProps> = ({ word, isSelected, isDisabled, solve
   return (
     <button
       type="button"
+      aria-pressed={isSelected}
       style={getTileStyle()}
-      className={`rounded-md p-1.5 md:p-3 text-xs md:text-base font-medium leading-tight text-center break-words h-14 md:h-16 flex items-center justify-center 
+      className={`min-w-0 w-full rounded-md px-1 py-1.5 sm:px-2 md:p-3 text-[10.5px] sm:text-xs md:text-base font-medium leading-tight text-center [overflow-wrap:anywhere] h-14 md:h-16 flex items-center justify-center 
       transition-all duration-200 transform ${isSelected ? 'scale-[0.97] shadow-inner' : 'hover:scale-[1.02] shadow-sm'} 
       uppercase ${isDisabled ? 'opacity-50 cursor-not-allowed' : 'cursor-pointer hover:brightness-95'}`}
       onClick={onClick}
