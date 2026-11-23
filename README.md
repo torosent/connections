@@ -48,3 +48,17 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
+
+### Cloudflare Workers (OpenNext)
+
+This project deploys to Cloudflare Workers via `@opennextjs/cloudflare`:
+
+```bash
+# Build and preview locally in Wrangler (workerd)
+npm run preview
+
+# Build and deploy to Cloudflare Workers
+npm run deploy
+```
+
+> **Note:** If `connections.tomer.dev` is still attached to the legacy Cloudflare Pages project, detach the custom domain from Cloudflare Pages in the Cloudflare dashboard before deploying the Worker so the Worker route can claim it.
