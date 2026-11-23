@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
 
 :root {
   --background: #ffffff;
@@ -8,7 +9,7 @@
   --yellow-bg: #FFC10E;
   --yellow-text: #000000;
   --green-bg: #7CAD3A;
-  --green-text: #FFFFFF;
+  --green-text: #000000;
   --blue-bg: #4575B4;
   --blue-text: #FFFFFF;
   --purple-bg: #A651B7;
@@ -31,6 +32,18 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+}
+
+/* Hebrew edition: Heebo for UI and tiles, Frank Ruhl Libre for headings */
+:root:lang(he) {
+  --font-sans: var(--font-heebo), "Arial Hebrew", Arial, sans-serif;
+  --font-display: var(--font-frank-ruhl-libre), "Times New Roman", serif;
+}
+
+:root:lang(he) h1,
+:root:lang(he) h2,
+:root:lang(he) h3 {
+  font-family: var(--font-display);
 }
 
 /* Dark mode with class-based approach */

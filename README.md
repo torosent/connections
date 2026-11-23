@@ -3,12 +3,14 @@ This is a clone of the New York Times Connections word game. The game challenges
 
 ## Features
 - Interactive gameplay with a visually appealing UI.
+- English (`/`) and Hebrew (`/he`) editions with full RTL layout and an in-header language toggle.
 - Light and dark theme toggle for better accessibility.
 - Date selector to play puzzles from different days.
 - Fully responsive design for desktop and mobile devices.
 
 ## Play Online
-You can play the game online at: [https://connections.tomer.dev](https://connections.tomer.dev)
+- English: [https://connections.tomer.dev](https://connections.tomer.dev)
+- Hebrew (עברית): [https://connections.tomer.dev/he](https://connections.tomer.dev/he)
 
 
 ## Getting Started
@@ -19,7 +21,7 @@ Follow these steps to run the project locally:
 
 Ensure you have the following installed on your system:
 
-- [Node.js](https://nodejs.org/) (v18 or later recommended)
+- [Node.js](https://nodejs.org/) (v20.9 or later recommended)
 - npm, yarn, pnpm, or bun (any package manager of your choice)
 
 ### Installation
@@ -46,3 +48,17 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
+
+### Cloudflare Workers (OpenNext)
+
+This project deploys to Cloudflare Workers via `@opennextjs/cloudflare`:
+
+```bash
+# Build and preview locally in Wrangler (workerd)
+npm run preview
+
+# Build and deploy to Cloudflare Workers
+npm run deploy
+```
+
+> **Note:** If `connections.tomer.dev` is still attached to the legacy Cloudflare Pages project, detach the custom domain from Cloudflare Pages in the Cloudflare dashboard before deploying the Worker so the Worker route can claim it.

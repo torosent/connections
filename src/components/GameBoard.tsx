@@ -1,17 +1,25 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import WordTile from './WordTile';
 import GroupDisplay from './GroupDisplay';
 import ColorKey from './ColorKey';
-import { ConnectionPuzzle, GameState } from '@/types';
+import { ConnectionPuzzle, GameState, Locale } from '@/types';
 import { shuffleArray } from '@/utils/connectionUtils';
+import { getTranslations } from '@/i18n/translations';
 
 interface GameBoardProps {
+  locale?: Locale;
   puzzle: ConnectionPuzzle | null;
   onNewGame: () => void;
 }
 
-const GameBoard: React.FC<GameBoardProps> = ({ puzzle, onNewGame }) => {
-  const [words, setWords] = useState<string[]>([]);
+const getShuffledWords = (puzzle: ConnectionPuzzle | null): string[] => {
+  if (!puzzle) return [];
+  return shuffleArray(puzzle.answers.flatMap(group => group.members));
+};
+
+const GameBoard: React.FC<GameBoardProps> = ({ locale = 'en', puzzle, onNewGame }) => {
+  const copy = getTranslations(locale);
+  const [words] = useState<string[]>(() => getShuffledWords(puzzle));
   const [gameState, setGameState] = useState<GameState>({
     selectedWords: [],
     solvedGroups: [],
@@ -19,49 +27,41 @@ const GameBoard: React.FC<GameBoardProps> = ({ puzzle, onNewGame }) => {
     gameStatus: 'playing',
   });
   const [showError, setShowError] = useState(false);
+  const errorTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  // Reset the game when a new puzzle is loaded
   useEffect(() => {
-    if (puzzle) {
-      const allWords: string[] = [];
-      puzzle.answers.forEach(group => {
-        allWords.push(...group.members);
-      });
-      setWords(shuffleArray(allWords));
-      setGameState({
-        selectedWords: [],
-        solvedGroups: [],
-        mistakes: 0,
-        gameStatus: 'playing',
-      });
-      setShowError(false);
-    }
-  }, [puzzle]);
+    return () => {
+      if (errorTimeoutRef.current !== null) {
+        clearTimeout(errorTimeoutRef.current);
+      }
+    };
+  }, []);
 
   const handleWordClick = (word: string) => {
-    if (gameState.gameStatus !== 'playing') return;
+    if (gameState.gameStatus !== 'playing' || showError) return;
     
     // Check if word is already selected
     if (gameState.selectedWords.includes(word)) {
-      setGameState({
-        ...gameState,
-        selectedWords: gameState.selectedWords.filter(w => w !== word),
-      });
+      setGameState(prev => ({
+        ...prev,
+        selectedWords: prev.selectedWords.filter(w => w !== word),
+      }));
       return;
     }
     
     // Check if we already have 4 words selected
     if (gameState.selectedWords.length >= 4) return;
     
-    const newSelectedWords = [...gameState.selectedWords, word];
-    setGameState({
-      ...gameState,
-      selectedWords: newSelectedWords,
-    });
+    setGameState(prev => ({
+      ...prev,
+      selectedWords: [...prev.selectedWords, word],
+    }));
   };
 
   const handleSubmit = () => {
-    if (gameState.selectedWords.length !== 4) return;
+    if (gameState.selectedWords.length !== 4 || gameState.gameStatus !== 'playing' || showError) {
+      return;
+    }
     checkSelectedGroup(gameState.selectedWords);
   };
 
@@ -76,32 +76,40 @@ const GameBoard: React.FC<GameBoardProps> = ({ puzzle, onNewGame }) => {
     
     if (matchingGroup) {
       // Group solved
-      const newSolvedGroups = [...gameState.solvedGroups, matchingGroup];
-      const newGameStatus = newSolvedGroups.length === 4 ? 'won' : 'playing';
-      
-      setGameState({
-        selectedWords: [],
-        solvedGroups: newSolvedGroups,
-        mistakes: gameState.mistakes,
-        gameStatus: newGameStatus,
+      setGameState(prev => {
+        const newSolvedGroups = [...prev.solvedGroups, matchingGroup];
+        const newGameStatus = newSolvedGroups.length === 4 ? 'won' : 'playing';
+        return {
+          ...prev,
+          selectedWords: [],
+          solvedGroups: newSolvedGroups,
+          gameStatus: newGameStatus,
+        };
       });
       setShowError(false);
     } else {
-      // Incorrect attempt
-      const newMistakes = gameState.mistakes + 1;
-      const newGameStatus = newMistakes >= 4 ? 'lost' : 'playing';
-      
-      setShowError(true);
-      
-      // Clear the error state after 1.5 seconds
-      setTimeout(() => {
-        setShowError(false);
-        setGameState({
-          selectedWords: [],
-          solvedGroups: gameState.solvedGroups,
+      // Incorrect attempt: apply mistake immediately and lock board during feedback delay
+      setGameState(prev => {
+        const newMistakes = prev.mistakes + 1;
+        const newGameStatus = newMistakes >= 4 ? 'lost' : 'playing';
+        return {
+          ...prev,
           mistakes: newMistakes,
           gameStatus: newGameStatus,
-        });
+        };
+      });
+      setShowError(true);
+
+      if (errorTimeoutRef.current !== null) {
+        clearTimeout(errorTimeoutRef.current);
+      }
+      errorTimeoutRef.current = setTimeout(() => {
+        errorTimeoutRef.current = null;
+        setShowError(false);
+        setGameState(prev => ({
+          ...prev,
+          selectedWords: [],
+        }));
       }, 1500);
     }
   };
@@ -121,14 +129,15 @@ const GameBoard: React.FC<GameBoardProps> = ({ puzzle, onNewGame }) => {
   const renderGameStatus = () => {
     if (gameState.gameStatus === 'won') {
       return (
-        <div className="w-full bg-green-100 p-4 rounded-md mb-4 text-center">
-          <h2 className="text-2xl font-bold text-green-800">Victory!</h2>
-          <p className="text-green-700 mb-3">You solved all the connections!</p>
+        <div className="w-full bg-green-100 dark:bg-green-950/60 p-4 rounded-md mb-4 text-center">
+          <h2 className="text-2xl font-bold text-green-800 dark:text-green-200">{copy.victoryTitle}</h2>
+          <p className="text-green-700 dark:text-green-300 mb-3">{copy.victoryMessage}</p>
           <button
-            className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded"
+            type="button"
+            className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded cursor-pointer"
             onClick={onNewGame}
           >
-            Play Another Puzzle
+            {copy.playAnother}
           </button>
         </div>
       );
@@ -136,12 +145,12 @@ const GameBoard: React.FC<GameBoardProps> = ({ puzzle, onNewGame }) => {
     
     if (gameState.gameStatus === 'lost') {
       return (
-        <div className="w-full bg-red-100 p-4 rounded-md mb-4 text-center">
-          <h2 className="text-2xl font-bold text-red-800">Game Over</h2>
-          <p className="text-red-700 mb-3">You made too many mistakes</p>
+        <div className="w-full bg-red-100 dark:bg-red-950/60 p-4 rounded-md mb-4 text-center">
+          <h2 className="text-2xl font-bold text-red-800 dark:text-red-200">{copy.gameOverTitle}</h2>
+          <p className="text-red-700 dark:text-red-300 mb-3">{copy.gameOverMessage}</p>
           {puzzle && (
             <div className="mb-4">
-              <h3 className="font-bold mb-2">Here are all the connections:</h3>
+              <h3 className="font-bold mb-2">{copy.allConnectionsHeading}</h3>
               <div className="space-y-2">
                 {puzzle.answers.map((group, index) => (
                   <GroupDisplay key={index} group={group} />
@@ -150,10 +159,11 @@ const GameBoard: React.FC<GameBoardProps> = ({ puzzle, onNewGame }) => {
             </div>
           )}
           <button
-            className="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded"
+            type="button"
+            className="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded cursor-pointer"
             onClick={onNewGame}
           >
-            Try Again
+            {copy.tryAgain}
           </button>
         </div>
       );
@@ -163,23 +173,23 @@ const GameBoard: React.FC<GameBoardProps> = ({ puzzle, onNewGame }) => {
   };
 
   if (!puzzle) {
-    return <div className="text-center">Loading puzzle...</div>;
+    return <div className="text-center">{copy.loadingPuzzle}</div>;
   }
 
   return (
-    <div className="max-w-lg mx-auto p-2 md:p-4">
+    <div className="max-w-lg mx-auto p-1 sm:p-2 md:p-4">
       {renderGameStatus()}
       
       {/* Color key for difficulty levels */}
       {gameState.gameStatus === 'playing' && (
         <div className="mb-4">
-          <h4 className="text-sm text-center mb-2">Difficulty Levels:</h4>
-          <ColorKey />
+          <h4 className="text-sm text-center mb-2">{copy.difficultyHeading}</h4>
+          <ColorKey locale={locale} />
         </div>
       )}
       
       {/* Game board */}
-      <div className="grid grid-cols-4 gap-2 mb-6">
+      <div className="grid grid-cols-4 gap-1.5 sm:gap-2 mb-6">
         {words.map((word, index) => {
           const isWordSolved = isWordInSolvedGroup(word);
           const solvedGroup = getSolvedGroupForWord(word);
@@ -189,7 +199,7 @@ const GameBoard: React.FC<GameBoardProps> = ({ puzzle, onNewGame }) => {
               key={index}
               word={word}
               isSelected={gameState.selectedWords.includes(word)}
-              isDisabled={isWordSolved || gameState.gameStatus !== 'playing'}
+              isDisabled={isWordSolved || gameState.gameStatus !== 'playing' || showError}
               solvedGroup={solvedGroup}
               onClick={() => handleWordClick(word)}
             />
@@ -200,26 +210,37 @@ const GameBoard: React.FC<GameBoardProps> = ({ puzzle, onNewGame }) => {
       {/* Submit button and feedback */}
       <div className="flex flex-col items-center justify-center space-y-4 mb-4">
         {showError && (
-          <div className="w-full bg-red-100 p-3 rounded-md text-center text-red-700 animate-pulse">
-            Not a valid connection. Try again!
+          <div className="w-full bg-red-100 dark:bg-red-950/60 p-3 rounded-md text-center text-red-700 dark:text-red-300 animate-pulse">
+            {copy.invalidConnection}
           </div>
         )}
         
         <button
+          type="button"
           style={{
-            backgroundColor: gameState.selectedWords.length === 4 ? 'var(--submit-bg)' : 'var(--submit-disabled-bg)',
-            color: gameState.selectedWords.length === 4 ? 'var(--submit-text)' : 'var(--submit-disabled-text)'
+            backgroundColor:
+              gameState.selectedWords.length === 4 && !showError
+                ? 'var(--submit-bg)'
+                : 'var(--submit-disabled-bg)',
+            color:
+              gameState.selectedWords.length === 4 && !showError
+                ? 'var(--submit-text)'
+                : 'var(--submit-disabled-text)',
           }}
-          className="w-full md:w-48 py-2 px-4 rounded-md font-medium transition-colors"
+          className="w-full md:w-48 py-2 px-4 rounded-md font-medium transition-colors cursor-pointer disabled:cursor-not-allowed"
           onClick={handleSubmit}
-          disabled={gameState.selectedWords.length !== 4 || gameState.gameStatus !== 'playing'}
+          disabled={
+            gameState.selectedWords.length !== 4 ||
+            gameState.gameStatus !== 'playing' ||
+            showError
+          }
         >
-          Submit ({gameState.selectedWords.length}/4)
+          {copy.submit(gameState.selectedWords.length)}
         </button>
         
         <p className="text-center">
-          <span className={gameState.mistakes > 0 ? 'text-red-600 font-semibold' : ''}>
-            Mistakes: {gameState.mistakes}/4
+          <span className={gameState.mistakes > 0 ? 'text-red-600 dark:text-red-400 font-semibold' : ''}>
+            {copy.mistakes(gameState.mistakes)}
           </span>
         </p>
       </div>
@@ -227,7 +248,7 @@ const GameBoard: React.FC<GameBoardProps> = ({ puzzle, onNewGame }) => {
       {/* Solved groups */}
       {gameState.solvedGroups.length > 0 && (
         <div className="mt-6">
-          <h3 className="text-lg font-semibold mb-2">Solved Groups:</h3>
+          <h3 className="text-lg font-semibold mb-2 text-start">{copy.solvedGroups}</h3>
           {gameState.solvedGroups.map((group, index) => (
             <GroupDisplay key={index} group={group} />
           ))}
